@@ -213,27 +213,27 @@ flattr-icons
 
 # kde (everything else)
 kdeadmin-kuser
-kdeadmin-kcron
-kdeadmin-ksystemlog
+##kdeadmin-kcron
+##kdeadmin-ksystemlog
 kdemultimedia-kmix
 kdesdk-kate
-kdesdk-kompare
-kdegraphics-kgamma
-kdegraphics-gwenview
+##kdesdk-kompare
+##kdegraphics-kgamma
+##kdegraphics-gwenview
 kdegraphics-ksnapshot
-kdegraphics-okular
+##kdegraphics-okular
 kdeutils-ark
 kdeutils-kgpg
 kdeutils-sweeper
 kdeplasma-addons-applets-icontasks
 kdenetwork-kppp
-kdenetwork-kget
-kdeplasma-addons-runners-characters
-kdeplasma-addons-runners-converter
+##kdenetwork-kget
+##kdeplasma-addons-runners-characters
+##kdeplasma-addons-runners-converter
 ###kdeplasma-addons-runners-datetime
-kdeplasma-addons-runners-dictionary ##4.10 option
-kdeplasma-addons-runners-spellchecker
-appmenu-qt
+##kdeplasma-addons-runners-dictionary ##4.10 option
+##kdeplasma-addons-runners-spellchecker
+##appmenu-qt
 #synaptiks
 kde-touchpad-config
 kdeconnect-kde
@@ -247,7 +247,7 @@ kdeconnect-kde
 #kde-l10n-nl
 #kde-l10n-pt_BR
 
-kde-l10n
+##kde-l10n
 
 # networkmanagement
 #kdeplasma-applets-networkmanagement conflicts with plasma-nm now
@@ -267,7 +267,7 @@ installer
 welcome
 
 # extragear
-quassel
+#quassel
 ##rekonq
 qupzilla
 bluedevil
@@ -275,15 +275,15 @@ yakuake
 ##qmmp
 ##vlc
 ##kdemultimedia-dragonplayer
-smplayer
-smtube
+#smplayer
+#smtube
 ##amarok
-clementine
-kde-gtk-config
+#clementine
+#kde-gtk-config
 ##oxygen-gtk-icons
-oxygen-gtk2
+#oxygen-gtk2
 imagewriter
-tomoyo-tools
+#tomoyo-tools
 ##python2-gobject3 no longer needed systemd 209
 spun
 ##clamav
@@ -300,48 +300,48 @@ kscreen
 kcmsystemd
 xdg-user-dirs
 
-#xbmc
-#qt5
-#blender
-kdenlive
-spideroak
-calibre
-grub2-editor
+##xbmc
+##qt5
+##blender
+#kdenlive
+#spideroak
+##calibre
+#grub2-editor
 ##hotot
 
 # burn
-dvd+rw-tools
-vcdimager
-transcode
-emovix
-k3b
+##dvd+rw-tools
+##vcdimager
+##transcode
+##emovix
+##k3b
 
 # debugging
 gdb
 
 # printing
-cups
-gutenprint 
-system-config-printer 
-cups-pdf 
-kdeadmin-print-manager
-hplip
-epsoneplijs
-epson-inkjet-printer-escpr
-samba
-a2ps
+##cups
+##gutenprint 
+##system-config-printer 
+##cups-pdf 
+##kdeadmin-print-manager
+##hplip
+##epsoneplijs
+##epson-inkjet-printer-escpr
+##samba
+#a2ps
 
 # office
-calligra
-calligra-l10n
+##calligra
+##calligra-l10n
 
 # games
-kdegames-kpat
+##kdegames-kpat
 
 #IM
-telepathy-idle
-telepathy-haze
-telepathy-gabble
-telepathy-logger
-telepathy-salut
-kde-telepathy
+##telepathy-idle
+##telepathy-haze
+##telepathy-gabble
+##telepathy-logger
+##telepathy-salut
+#kde-telepathy
