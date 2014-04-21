@@ -1,0 +1,6 @@
+CONNECTION="ethernet"
+DESCRIPTION="A very basic ethernet profile, using dhcp"
+INTERFACE=eth0
+IP="dhcp"
+DHCP_TIMEOUT=30
+

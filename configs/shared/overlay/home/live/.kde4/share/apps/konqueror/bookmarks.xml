@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel version="1.0" dbusName="rekonq">
+ <bookmark href="http://kaosx.us/">
+  <title>KaOS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="system-help"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="http://kaosx.us/phpBB3/">
+  <title>Forum</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="system-help"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="http://webchat.freenode.net/?channels=KaOSx">
+  <title>IRC</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="system-help"/>
+   </metadata>
+  </info>
+ </bookmark>
+</xbel>

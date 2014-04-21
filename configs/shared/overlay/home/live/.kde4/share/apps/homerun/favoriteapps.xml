@@ -1,0 +1,9 @@
+<apps version="1">
+    <app serviceId="kde4-dolphin.desktop"/>
+    <app serviceId="qupzilla.desktop"/>
+    <app serviceId="smplayer.desktop"/>
+    <app serviceId="kde4-systemsettings.desktop"/>
+    <app serviceId="octopi.desktop"/>
+    <app serviceId="kde4-kinfocenter.desktop"/>
+    <app serviceId="kde4-kate.desktop"/>
+</apps>

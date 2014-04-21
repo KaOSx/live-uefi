@@ -1,0 +1,36 @@
+ksplashrc KSplash Theme Default
+!/home/live/.kde4/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+ksplashrc KSplash Engine KSplashQML
+!/home/live/.kde4/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+kcmrandrrc Display ApplyOnStartup false
+!/home/live/.kde4/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen0]
+!/home/live/.kde4/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen1]
+!/home/live/.kde4/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen2]
+!/home/live/.kde4/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen3]
+!/home/live/.kde4/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmfonts General forceFontDPI 0
+!/home/live/.kde4/share/config/kcmfonts
+!/usr/share/config/kcmfonts
+*
+kdeglobals Locale Language '' # trigger requesting languages from KLocale
+!/home/live/.kde4/share/config/kdeglobals
+!/usr/share/config/kdeglobals
+*

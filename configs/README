@@ -1,0 +1,10 @@
+Quick-Guide
+
+* cd to any overlay
+* edit overlay if needed
+* edit packages if needed
+* edit pacman.conf if needed
+* check overlay-pkgs.${arch} (maybe some drivers are in build)
+* edit options.conf if needed
+
+run "sudo build"

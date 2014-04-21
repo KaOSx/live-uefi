@@ -1,0 +1,7 @@
+[Added Associations]
+application/xhtml+xml=kde4-kate.desktop;writer.desktop;
+text/plain=kde4-kate.desktop;writer.desktop;
+text/x-cmake=kde4-kate.desktop;writer.desktop;
+text/x-txt2tags=kde4-kate.desktop;writer.desktop;
+text/html=qupzilla.desktop;
+text/xml=kde4-kate.desktop;writer.desktop;

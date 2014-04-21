@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=Qt;System;
+Exec=welcome
+GenericName=Welcome
+Icon=welcome
+MimeType=
+Name=Welcome
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

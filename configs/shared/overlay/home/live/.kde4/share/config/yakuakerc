@@ -1,0 +1,9 @@
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Dialogs]
+FirstRun=false
+ShowPopup=false
+
+[Favorite Profiles]
+Favorites=/usr/share/apps/konsole/Shell.profile

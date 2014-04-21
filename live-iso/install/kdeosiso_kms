@@ -1,0 +1,16 @@
+#!/bin/bash
+
+build() {
+    add_module "radeon"
+    add_module "nouveau"
+    add_module "i915"
+    add_module "via-agp"
+    add_module "sis-agp"
+    add_module "intel-agp"
+}
+
+help() {
+    cat << HELPEOF
+Adds all common KMS drivers to the initramfs image.
+HELPEOF
+}

@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=pacman -Q > ~/installed.pkgs && kate ~/installed.pkgs
+GenericName=list of all installed pkgs
+GenericName[ca]=llista de tots els paquets instal·lats
+GenericName[de]=Liste aller installierten Pakete
+GenericName[en_US]=list of all installed pkgs
+Icon=preflight-verifier
+MimeType=
+Name=Installed Packages
+Name[ca]=Paquets instal·lats
+Name[de]=Installierte Pakete
+Name[en_US]=Installed Packages
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

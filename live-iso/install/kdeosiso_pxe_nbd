@@ -1,0 +1,16 @@
+#!/bin/bash
+
+build() {
+    add_module "nbd"
+
+    add_runscript
+
+    add_binary nbd-client
+}
+
+help ()
+{
+cat<<HELPEOF
+  This hook loads the necessary modules for boot via PXE and NBD.
+HELPEOF
+}

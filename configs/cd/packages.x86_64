@@ -1,0 +1,347 @@
+# KaOS-Live Packages file
+# Version: 20140213
+
+### These should probably be present
+base  
+attr
+bash
+binutils
+syslinux
+cdrkit
+sshfs
+linux-headers
+squashfs-tools
+##aufs3-util
+##cdemu-client
+lsb-release
+
+# basic needs
+nbd
+kdeos-hardware-detection
+#hwd
+syslinux4
+prebootloader
+gummiboot
+refind-efi
+grub-common
+grub-bios
+grub-efi
+os-prober
+hwdetect
+dmidecode
+bc
+##virtuoso
+xdelta3
+avahi
+ntfs-3g
+btrfs-progs
+dosfstools
+gptfdisk
+testdisk
+
+# drivers & system utilities
+alsa-lib
+alsa-oss
+alsa-utils
+lm_sensors
+fuse
+cpupower
+iasl
+
+# catalyst fixes
+xinetd
+netkit-bsd-finger
+libstdc++5
+
+# generally useful tools that dont require X
+bash-completion
+openssh
+nmap
+lsof
+vim
+sudo
+mlocate
+man-db
+
+# packers, compressors
+unzip
+unrar
+p7zip
+zip
+##unarj
+
+# wireless drivers and tools
+#madwifi
+#ndiswrapper
+#ndiswrapper-utils
+wireless_tools
+wireless-regdb
+dnsutils
+crda
+usb_modeswitch
+vpnc
+openvpn
+openconnect
+networkmanager-vpnc
+networkmanager-pptp
+networkmanager-openvpn
+networkmanager-openconnect
+
+# firmwares
+alsa-firmware
+b43-fwcutter
+bluez-firmware
+#broadcom-wl
+ipw2100-fw
+ipw2200-fw
+isl3887usb-firmware
+isl3890-firmware
+linux-firmware
+zd1211-firmware
+#amd-ucode  part of linux-firmware 07-26 2013
+intel-ucode
+
+# xorg base
+xorg
+xorg-server
+xorg-server-utils
+xorg-xkb-utils
+xorg-xauth
+xorg-xinit
+xorg-apps
+xorg-res-utils
+xorg-fonts-alias
+xorg-fonts-encodings
+xorg-fonts-misc
+
+# xorg video drivers
+#xf86-video-apm
+#xf86-video-ark
+xf86-video-ati
+#xf86-video-chips
+#xf86-video-cirrus
+#xf86-video-geode
+#xf86-video-glint
+#xf86-video-i128
+#xf86-video-i740
+xf86-video-intel
+#xf86-video-mach64
+#xf86-video-mga
+#xf86-video-neomagic
+xf86-video-nouveau
+#xf86-video-nv
+#xf86-video-openchrome
+#xf86-video-radeonhd
+#xf86-video-r128
+#xf86-video-rendition
+#xf86-video-s3
+#xf86-video-s3virge
+#xf86-video-savage
+#xf86-video-siliconmotion
+#xf86-video-sis
+#xf86-video-sisusb
+#xf86-video-tdfx
+#xf86-video-trident
+#xf86-video-tseng
+#xf86-video-v4l
+xf86-video-vesa
+xf86-video-vmware
+#xf86-video-voodoo
+
+# xorg input drivers
+xorg-input-drivers
+xf86-input-synaptics
+xf86-input-wacom
+
+# fonts
+xorg-fonts-75dpi
+xorg-fonts-100dpi
+xorg-fonts-cyrillic
+ttf-dejavu
+terminus-font
+ttf-liberation
+wqy-microhei
+ttf-indic-otf
+
+# additional stuff that needs xorg
+hicolor-icon-theme
+
+# sound (basic)
+phonon-backend-gstreamer
+#phonon-backend-vlc
+#phonon-backend-mplayer
+#gstreamer0.10-good-plugins  ## all gstreamer included in qtwebkit
+#gstreamer0.10-ugly-plugins # for mp3
+#gstreamer0.10-bad-plugins # for ac3
+libcanberra-gstreamer
+libao
+alsa-lib
+alsa-utils
+
+# pulse support
+pulseaudio
+pulseaudio-alsa
+gstreamer0.10-pulse
+libcanberra-pulse
+
+# kde (minimal base)
+qt
+kde-common
+kdelibs
+kdepimlibs
+kde-runtime
+kde-baseapps
+kde-baseapps-dolphin
+kde-baseapps-konsole
+kde-workspace
+oxygen-icons
+
+# themes 
+kde-kdm-themes-midna
+kde-ksplash-themes-midna
+kde-plasma-themes-midna
+wallpapers-midna
+#kde-wallpapers
+KaOS_wallpapers
+grub-theme-midna
+python2-xlib
+##python2-v4l2capture
+python2-imaging
+#platinum-colors
+midna-colors
+flattr-icons
+
+# kde (everything else)
+kdeadmin-kuser
+kdeadmin-kcron
+kdeadmin-ksystemlog
+kdemultimedia-kmix
+kdesdk-kate
+kdesdk-kompare
+kdegraphics-kgamma
+kdegraphics-gwenview
+kdegraphics-ksnapshot
+kdegraphics-okular
+kdeutils-ark
+kdeutils-kgpg
+kdeutils-sweeper
+kdeplasma-addons-applets-icontasks
+kdenetwork-kppp
+kdenetwork-kget
+kdeplasma-addons-runners-characters
+kdeplasma-addons-runners-converter
+###kdeplasma-addons-runners-datetime
+kdeplasma-addons-runners-dictionary ##4.10 option
+kdeplasma-addons-runners-spellchecker
+appmenu-qt
+#synaptiks
+kde-touchpad-config
+kdeconnect-kde
+
+# locales
+#kde-l10n-ca
+#kde-l10n-de
+#kde-l10n-es
+#kde-l10n-fr
+#kde-l10n-it
+#kde-l10n-nl
+#kde-l10n-pt_BR
+
+kde-l10n
+
+# networkmanagement
+#kdeplasma-applets-networkmanagement conflicts with plasma-nm now
+plasma-nm
+modemmanager
+mobile-broadband-provider-info
+networkmanager-dispatcher-ntpd
+kcm-ufw
+
+# installer + dependencies
+kdebindings-smokekde
+kdebindings-pykde4
+netctl   
+hwinfo      
+#live-installer
+installer
+welcome
+
+# extragear
+quassel
+##rekonq
+qupzilla
+bluedevil
+yakuake
+##qmmp
+##vlc
+##kdemultimedia-dragonplayer
+smplayer
+smtube
+##amarok
+clementine
+kde-gtk-config
+##oxygen-gtk-icons
+oxygen-gtk2
+imagewriter
+tomoyo-tools
+##python2-gobject3 no longer needed systemd 209
+spun
+##clamav
+init-live
+#kdeplasma-addons-applets-lancelot
+homerun 
+#kdeplasma-applets-appmenu-qml
+octopi
+kio-mtp
+inxi
+kscreen
+##kmymoney
+##plasma-mediacenter
+kcmsystemd
+xdg-user-dirs
+
+#xbmc
+#qt5
+#blender
+kdenlive
+spideroak
+calibre
+grub2-editor
+##hotot
+
+# burn
+dvd+rw-tools
+vcdimager
+transcode
+emovix
+k3b
+
+# debugging
+gdb
+
+# printing
+cups
+gutenprint 
+system-config-printer 
+cups-pdf 
+kdeadmin-print-manager
+hplip
+epsoneplijs
+epson-inkjet-printer-escpr
+samba
+a2ps
+
+# office
+calligra
+calligra-l10n
+
+# games
+kdegames-kpat
+
+#IM
+telepathy-idle
+telepathy-haze
+telepathy-gabble
+telepathy-logger
+telepathy-salut
+kde-telepathy
