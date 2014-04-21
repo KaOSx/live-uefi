@@ -19,7 +19,7 @@ lsb-release
 nbd
 kdeos-hardware-detection
 #hwd
-syslinux4
+syslinux
 prebootloader
 gummiboot
 refind-efi
