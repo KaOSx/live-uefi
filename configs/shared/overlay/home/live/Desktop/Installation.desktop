@@ -2,14 +2,14 @@
 Categories=Qt;System;
 Comment[de]=
 Comment=
-Exec=sudo installer > /tmp/installation.log 2>&1
+Exec=sudo /usr/bin/calamares
 GenericName[de]=Installation
 GenericName=Installation
 GenericName[ca]=Instal.lació
 GenericName[es]=Instalación
 GenericName[fr]=Installation
 GenericName[gl]=Instalación
-Icon=installer
+Icon=/home/live/Desktop/info/installer.png
 MimeType=
 Name[de]=Installation
 Name=Installation

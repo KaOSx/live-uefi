@@ -46,3 +46,9 @@ uuidd:x:68:
 ntp:x:87
 systemd-journal:x:110:
 usbmux:x:140:
+systemd-journal-gateway:x:191:
+systemd-timesync:x:192:
+sddm:x:136:
+systemd-resolve:x:195:
+systemd-network:x:193:
+systemd-bus-proxy:x:194:

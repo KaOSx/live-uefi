@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20140213
+# Version: 20140902
 
 ### These should probably be present
 base  
@@ -37,6 +37,7 @@ ntfs-3g
 btrfs-progs
 dosfstools
 gptfdisk
+jfsutils
 testdisk
 
 # drivers & system utilities
@@ -184,24 +185,25 @@ pulseaudio-alsa
 gstreamer0.10-pulse
 libcanberra-pulse
 
-# kde (minimal base)
-qt
-kde-common
-kdelibs
-kdepimlibs
-kde-runtime
-kde-baseapps
-kde-baseapps-dolphin
-kde-baseapps-konsole
-kde-workspace
-oxygen-icons
+# kf5 (minimal base)
+kf5
+plasma-workspace
+plasma-desktop
+kf5-kde-baseapps
+systemsettings
+oxygen-fonts
+breeze
+kf5-sddm
+kate
+konsole
+plasma-volume-control
 
 # themes 
-kde-kdm-themes-midna
-kde-ksplash-themes-midna
-kde-plasma-themes-midna
+#kde-kdm-themes-midna
+#kde-ksplash-themes-midna
+#kde-plasma-themes-midna
 wallpapers-midna
-#kde-wallpapers
+plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
 python2-xlib
@@ -212,31 +214,25 @@ midna-colors
 flattr-icons
 
 # kde (everything else)
-kdeadmin-kuser
-##kdeadmin-kcron
-##kdeadmin-ksystemlog
-kdemultimedia-kmix
-kdesdk-kate
-##kdesdk-kompare
-##kdegraphics-kgamma
-##kdegraphics-gwenview
-kdegraphics-ksnapshot
-##kdegraphics-okular
-kdeutils-ark
-kdeutils-kgpg
-kdeutils-sweeper
-kdeplasma-addons-applets-icontasks
-kdenetwork-kppp
-##kdenetwork-kget
-##kdeplasma-addons-runners-characters
-##kdeplasma-addons-runners-converter
-###kdeplasma-addons-runners-datetime
-##kdeplasma-addons-runners-dictionary ##4.10 option
-##kdeplasma-addons-runners-spellchecker
-##appmenu-qt
-#synaptiks
-kde-touchpad-config
-kdeconnect-kde
+kinfocenter
+kmenuedit
+ksysguard
+kwalletmanager
+milou
+kf5-partitionmanager
+gwenview
+##kdegraphics-ksnapshot
+okular
+ark
+kf5-yakuake
+##kdeutils-kgpg
+##kdeutils-sweeper
+##kdeplasma-addons-applets-icontasks
+##kdenetwork-kppp
+##appmenu-qt5
+##kde-touchpad-config
+kf5-kdeconnect-kde
+kf5-sddm-kcm
 
 # locales
 #kde-l10n-ca
@@ -247,74 +243,85 @@ kdeconnect-kde
 #kde-l10n-nl
 #kde-l10n-pt_BR
 
-##kde-l10n
+#kde-l10n
 
 # networkmanagement
 #kdeplasma-applets-networkmanagement conflicts with plasma-nm now
-plasma-nm
+kf5-plasma-nm
 modemmanager
 mobile-broadband-provider-info
 networkmanager-dispatcher-ntpd
-kcm-ufw
+#kcm-ufw
 
 # installer + dependencies
-kdebindings-smokekde
-kdebindings-pykde4
 netctl   
+rsync
+hdparm
 hwinfo      
-#live-installer
-installer
+iso-codes
+keyboardctl
+librsvg
+ttf-indic-otf
+calamares
 welcome
 
 # extragear
-#quassel
-##rekonq
-qupzilla
-bluedevil
-yakuake
+kf5-quassel
+kf5-rekonq
+kf5-qupzilla
+kf5-bluedevil
 ##qmmp
 ##vlc
 ##kdemultimedia-dragonplayer
-#smplayer
-#smtube
+smplayer
+smtube
 ##amarok
 #clementine
-#kde-gtk-config
-##oxygen-gtk-icons
-#oxygen-gtk2
+kf5-kde-gtk-config
+oxygen-gtk2
 imagewriter
-#tomoyo-tools
+tomoyo-tools
 ##python2-gobject3 no longer needed systemd 209
-spun
 ##clamav
 init-live
-#kdeplasma-addons-applets-lancelot
-homerun 
+kf5-kdeplasma-addons
+#homerun 
 #kdeplasma-applets-appmenu-qml
 octopi
-kio-mtp
+#kio-mtp
 inxi
-kscreen
-##kmymoney
-##plasma-mediacenter
-kcmsystemd
+kf5-kscreen
+kf5-kmymoney
+plasma-mediacenter
+#kcmsystemd
 xdg-user-dirs
+notepad
+kf5-skanlite
+okteta
+kf5-kdevelop
+kf5-konversation
+qtwayland
+kstars
+kgeography
+kanagram
+dropbox
+webcamoid
+qbittorrent
 
-##xbmc
-##qt5
-##blender
+#xbmc
+#blender
 #kdenlive
 #spideroak
-##calibre
+#calibre
 #grub2-editor
 ##hotot
 
 # burn
-##dvd+rw-tools
-##vcdimager
-##transcode
-##emovix
-##k3b
+dvd+rw-tools
+vcdimager
+transcode
+emovix
+k5-k3b
 
 # debugging
 gdb

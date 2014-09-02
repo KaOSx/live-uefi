@@ -1,0 +1,11 @@
+[Event/exitkde]
+Action=Sound
+Execute=
+KTTS=
+Logfile=
+
+[Event/startkde]
+Action=Sound
+Execute=
+KTTS=
+Logfile=
