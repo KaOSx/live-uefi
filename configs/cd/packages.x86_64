@@ -231,8 +231,8 @@ kf5-yakuake
 ##kdenetwork-kppp
 ##appmenu-qt5
 ##kde-touchpad-config
-kf5-kdeconnect-kde
-kf5-sddm-kcm
+#kf5-kdeconnect-kde
+#kf5-sddm-kcm
 
 # locales
 #kde-l10n-ca
@@ -261,52 +261,51 @@ hwinfo
 iso-codes
 keyboardctl
 librsvg
-ttf-indic-otf
 calamares
 welcome
 
 # extragear
-kf5-quassel
-kf5-rekonq
+#kf5-quassel
+#kf5-rekonq
 kf5-qupzilla
-kf5-bluedevil
+#kf5-bluedevil
 ##qmmp
 ##vlc
 ##kdemultimedia-dragonplayer
-smplayer
-smtube
+#smplayer
+#smtube
 ##amarok
 #clementine
-kf5-kde-gtk-config
-oxygen-gtk2
+#kf5-kde-gtk-config
+#oxygen-gtk2
 imagewriter
 tomoyo-tools
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
-kf5-kdeplasma-addons
+#kf5-kdeplasma-addons
 #homerun 
 #kdeplasma-applets-appmenu-qml
 octopi
 #kio-mtp
 inxi
-kf5-kscreen
-kf5-kmymoney
-plasma-mediacenter
+#kf5-kscreen
+#kf5-kmymoney
+#plasma-mediacenter
 #kcmsystemd
 xdg-user-dirs
 notepad
-kf5-skanlite
-okteta
-kf5-kdevelop
-kf5-konversation
-qtwayland
-kstars
-kgeography
-kanagram
-dropbox
-webcamoid
-qbittorrent
+#kf5-skanlite
+#okteta
+#kf5-kdevelop
+#kf5-konversation
+#qtwayland
+#kstars
+#kgeography
+#kanagram
+#dropbox
+#webcamoid
+#qbittorrent
 
 #xbmc
 #blender
@@ -317,11 +316,11 @@ qbittorrent
 ##hotot
 
 # burn
-dvd+rw-tools
-vcdimager
-transcode
-emovix
-k5-k3b
+#dvd+rw-tools
+#vcdimager
+#transcode
+#emovix
+#k5-k3b
 
 # debugging
 gdb
