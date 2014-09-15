@@ -203,8 +203,8 @@ plasma-volume-control
 #kde-ksplash-themes-midna
 #kde-plasma-themes-midna
 #wallpapers-midna
-#plasma-workspace-wallpapers
-#KaOS_wallpapers
+plasma-workspace-wallpapers
+KaOS_wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
