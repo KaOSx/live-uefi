@@ -224,6 +224,7 @@ gwenview
 ##kdegraphics-ksnapshot
 okular
 ark
+ksnapshot
 kf5-yakuake
 ##kdeutils-kgpg
 ##kdeutils-sweeper
@@ -304,6 +305,7 @@ qtwayland
 kstars
 kgeography
 kanagram
+kig
 #dropbox
 webcamoid
 #qbittorrent
@@ -317,11 +319,11 @@ webcamoid
 ##hotot
 
 # burn
-#dvd+rw-tools
-#vcdimager
-#transcode
-#emovix
-#k5-k3b
+dvd+rw-tools
+vcdimager
+transcode
+emovix
+k5-k3b
 
 # debugging
 gdb
@@ -344,6 +346,8 @@ gdb
 
 # games
 ##kdegames-kpat
+bovo
+kbounce
 
 #IM
 ##telepathy-idle
