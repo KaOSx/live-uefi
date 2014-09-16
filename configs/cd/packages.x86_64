@@ -197,6 +197,7 @@ kf5-sddm
 kate
 konsole
 plasma-volume-control
+kmix
 
 # themes 
 #kde-kdm-themes-midna
@@ -221,7 +222,6 @@ kwalletmanager
 milou
 kf5-partitionmanager
 gwenview
-##kdegraphics-ksnapshot
 okular
 ark
 ksnapshot
@@ -231,7 +231,7 @@ kf5-yakuake
 ##kdeplasma-addons-applets-icontasks
 ##kdenetwork-kppp
 ##appmenu-qt5
-##kde-touchpad-config
+kde-touchpad
 kf5-kdeconnect-kde
 kf5-sddm-kcm
 
@@ -264,7 +264,7 @@ keyboardctl
 librsvg
 calamares
 welcome
-thus
+#thus
 
 # extragear
 kf5-quassel
@@ -323,7 +323,7 @@ dvd+rw-tools
 vcdimager
 transcode
 emovix
-k5-k3b
+kf5-k3b
 
 # debugging
 gdb
