@@ -231,7 +231,7 @@ kf5-yakuake
 ##kdeplasma-addons-applets-icontasks
 ##kdenetwork-kppp
 ##appmenu-qt5
-kde-touchpad
+kcm-touchpad
 kf5-kdeconnect-kde
 kf5-sddm-kcm
 
