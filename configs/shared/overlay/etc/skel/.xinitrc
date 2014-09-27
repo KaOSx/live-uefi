@@ -6,5 +6,5 @@
 # Executed by startx (run your window manager from here)
 #
 
-exec startkde
+exec dbus-launch --exit-with-session startkde
 
