@@ -171,9 +171,6 @@ hicolor-icon-theme
 phonon-backend-gstreamer
 #phonon-backend-vlc
 #phonon-backend-mplayer
-#gstreamer0.10-good-plugins  ## all gstreamer included in qtwebkit
-#gstreamer0.10-ugly-plugins # for mp3
-#gstreamer0.10-bad-plugins # for ac3
 libcanberra-gstreamer
 libao
 alsa-lib
@@ -182,7 +179,6 @@ alsa-utils
 # pulse support
 pulseaudio
 pulseaudio-alsa
-gstreamer0.10-pulse
 libcanberra-pulse
 
 # kf5 (minimal base)
@@ -231,8 +227,8 @@ kf5-yakuake
 ##kdeplasma-addons-applets-icontasks
 ##kdenetwork-kppp
 ##appmenu-qt5
-kcm-touchpad
-kf5-kdeconnect-kde
+#kcm-touchpad
+#kf5-kdeconnect-kde
 kf5-sddm-kcm
 
 # locales
@@ -270,7 +266,7 @@ welcome
 kf5-quassel
 kf5-rekonq
 kf5-qupzilla
-kf5-bluedevil
+#kf5-bluedevil
 ##qmmp
 ##vlc
 ##kdemultimedia-dragonplayer
@@ -285,29 +281,29 @@ tomoyo-tools
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
-kf5-kdeplasma-addons
+#kf5-kdeplasma-addons
 #homerun 
 #kdeplasma-applets-appmenu-qml
 octopi
 #kio-mtp
 inxi
-kf5-kscreen
+#kf5-kscreen
 #kf5-kmymoney
-plasma-mediacenter
+#plasma-mediacenter
 #kcmsystemd
 xdg-user-dirs
 notepad
-kf5-skanlite
+#kf5-skanlite
 okteta
-kf5-kdevelop
-kf5-konversation
+#kf5-kdevelop
+#kf5-konversation
 qtwayland
-kstars
-kgeography
-kanagram
-kig
+#kstars
+#kgeography
+#kanagram
+#kig
 #dropbox
-webcamoid
+#webcamoid
 #qbittorrent
 
 #xbmc
@@ -319,11 +315,11 @@ webcamoid
 ##hotot
 
 # burn
-dvd+rw-tools
-vcdimager
-transcode
-emovix
-kf5-k3b
+#dvd+rw-tools
+#vcdimager
+#transcode
+#emovix
+#kf5-k3b
 
 # debugging
 gdb
@@ -346,8 +342,8 @@ gdb
 
 # games
 ##kdegames-kpat
-bovo
-kbounce
+#bovo
+#kbounce
 
 #IM
 ##telepathy-idle
