@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20140902
+# Version: 20141010
 
 ### These should probably be present
 base  
@@ -199,7 +199,7 @@ kmix
 #kde-kdm-themes-midna
 #kde-ksplash-themes-midna
 #kde-plasma-themes-midna
-#wallpapers-midna
+wallpapers-midna
 plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
@@ -228,7 +228,7 @@ kf5-yakuake
 ##kdenetwork-kppp
 ##appmenu-qt5
 #kcm-touchpad
-#kf5-kdeconnect-kde
+kf5-kdeconnect-kde
 kf5-sddm-kcm
 
 # locales
@@ -266,7 +266,7 @@ welcome
 kf5-quassel
 kf5-rekonq
 kf5-qupzilla
-#kf5-bluedevil
+kf5-bluedevil
 ##qmmp
 ##vlc
 ##kdemultimedia-dragonplayer
@@ -281,29 +281,29 @@ tomoyo-tools
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
-#kf5-kdeplasma-addons
+kf5-kdeplasma-addons
 #homerun 
 #kdeplasma-applets-appmenu-qml
 octopi
 #kio-mtp
 inxi
-#kf5-kscreen
+kf5-kscreen
 #kf5-kmymoney
-#plasma-mediacenter
+plasma-mediacenter
 #kcmsystemd
 xdg-user-dirs
 notepad
-#kf5-skanlite
+kf5-skanlite
 okteta
-#kf5-kdevelop
-#kf5-konversation
+kf5-kdevelop
+kf5-konversation
 qtwayland
-#kstars
-#kgeography
-#kanagram
-#kig
-#dropbox
-#webcamoid
+kstars
+kgeography
+kanagram
+kig
+seafile-client
+webcamoid
 #qbittorrent
 
 #xbmc
@@ -315,11 +315,11 @@ qtwayland
 ##hotot
 
 # burn
-#dvd+rw-tools
-#vcdimager
-#transcode
-#emovix
-#kf5-k3b
+dvd+rw-tools
+vcdimager
+transcode
+emovix
+kf5-k3b
 
 # debugging
 gdb
@@ -342,8 +342,8 @@ gdb
 
 # games
 ##kdegames-kpat
-#bovo
-#kbounce
+bovo
+kbounce
 
 #IM
 ##telepathy-idle
