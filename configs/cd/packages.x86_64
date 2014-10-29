@@ -189,7 +189,7 @@ kf5-kde-baseapps
 systemsettings
 oxygen-fonts
 breeze
-kf5-sddm
+sddm
 kate
 konsole
 plasma-volume-control
@@ -263,7 +263,7 @@ welcome
 #thus
 
 # extragear
-kf5-quassel
+quassel
 kf5-rekonq
 kf5-qupzilla
 kf5-bluedevil
@@ -288,8 +288,8 @@ octopi
 #kio-mtp
 inxi
 kf5-kscreen
-#kf5-kmymoney
-plasma-mediacenter
+kf5-kmymoney
+#plasma-mediacenter
 #kcmsystemd
 xdg-user-dirs
 notepad
@@ -305,6 +305,14 @@ kig
 seafile-client
 webcamoid
 #qbittorrent
+kf5-kdegraphics-thumbnailers
+ffmpegthumbs
+kget
+kruler
+kcharselect
+khangman
+kompare
+kolourpaint
 
 #xbmc
 #blender
