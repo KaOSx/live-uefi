@@ -1,33 +1,28 @@
-[$Version]
-update_info=kwin_remove_effects.upd:kwin4.7_effects
-
 [Compositing]
+Backend=XRender
 OpenGLIsUnsafe=false
 
 [Desktops]
 Number=2
 Rows=1
 
-[Effect-BoxSwitch]
-TabBox=false
-TabBoxAlternative=false
-
-[Effect-Zoom]
-InitialZoom=1
-
 [Plugins]
+cubeslideEnabled=false
 desktopchangeosdEnabled=false
-kwin4_effect_cubeslideEnabled=false
-kwin4_effect_fadedesktopEnabled=true
-kwin4_effect_slideEnabled=false
+kwin4_effect_fadedesktopEnabled=false
+slideEnabled=true
 
 [Script-desktopchangeosd]
 PopupHideDelay=1000
 TextOnly=false
 
-[TabBox]
-ListMode=0
-ShowTabBox=true
+[Style]
+BorderSize=1
+ButtonsOnLeft=MS
+ButtonsOnRight=HIAX
+CustomButtonPositions=false
+PluginLib=aurorae
+ShowToolTips=true
 
 [Windows]
 RollOverDesktops=true

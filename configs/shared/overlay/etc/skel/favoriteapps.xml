@@ -1,9 +1,9 @@
 <apps version="1">
-    <app serviceId="kde4-dolphin.desktop"/>
+    <app serviceId="dolphin.desktop"/>
     <app serviceId="qupzilla.desktop"/>
     <app serviceId="mirror-check.desktop"/>
     <app serviceId="smplayer.desktop"/>
-    <app serviceId="kde4-systemsettings.desktop"/>
+    <app serviceId="systemsettings.desktop"/>
     <app serviceId="octopi.desktop"/>
-    <app serviceId="kde4-yakuake.desktop"/>
+    <app serviceId="yakuake.desktop"/>
 </apps>
