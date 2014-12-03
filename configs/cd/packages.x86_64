@@ -198,8 +198,8 @@ kmix
 # themes 
 #kde-kdm-themes-midna
 #kde-ksplash-themes-midna
-#kde-plasma-themes-midna
-wallpapers-midna
+kde-plasma-themes-midna
+#wallpapers-midna
 plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
@@ -269,9 +269,9 @@ kf5-qupzilla
 kf5-bluedevil
 ##qmmp
 ##vlc
-##kdemultimedia-dragonplayer
-smplayer
-smtube
+dragon
+##smplayer segfaults with qt54
+##smtube
 ##amarok
 #clementine
 kf5-kde-gtk-config
@@ -297,7 +297,7 @@ kf5-skanlite
 okteta
 kf5-kdevelop
 kf5-konversation
-qtwayland
+qt5-wayland
 kstars
 kgeography
 kanagram
@@ -314,10 +314,11 @@ khangman
 kompare
 kolourpaint
 kcalc
+kbruch
 
-#xbmc
+#kodi
 #blender
-#kdenlive
+kf5-kdenlive
 #spideroak
 #calibre
 #grub2-editor
@@ -334,16 +335,16 @@ kf5-k3b
 gdb
 
 # printing
-##cups
-##gutenprint 
-##system-config-printer 
-##cups-pdf 
-##kdeadmin-print-manager
-##hplip
-##epsoneplijs
-##epson-inkjet-printer-escpr
-##samba
-#a2ps
+cups
+gutenprint 
+system-config-printer 
+cups-pdf 
+print-manager
+hplip
+epsoneplijs
+epson-inkjet-printer-escpr
+samba
+a2ps
 
 # office
 ##calligra
