@@ -303,7 +303,7 @@ kgeography
 kanagram
 kig
 seafile-client
-webcamoid
+#webcamoid conflicts with opencv-qt5
 #qbittorrent
 kf5-kdegraphics-thumbnailers
 ffmpegthumbs
