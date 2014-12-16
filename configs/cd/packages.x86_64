@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20141010
+# Version: 201412115
 
 ### These should probably be present
 base  
@@ -199,7 +199,7 @@ kmix
 #kde-kdm-themes-midna
 #kde-ksplash-themes-midna
 kde-plasma-themes-midna
-#wallpapers-midna
+wallpapers-midna
 plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
@@ -228,7 +228,7 @@ kf5-yakuake
 ##kdenetwork-kppp
 ##appmenu-qt5
 #kcm-touchpad
-kf5-kdeconnect-kde
+kdeconnect-kde
 kf5-sddm-kcm
 
 # locales
@@ -240,11 +240,11 @@ kf5-sddm-kcm
 #kde-l10n-nl
 #kde-l10n-pt_BR
 
-#kde-l10n
+kde-l10n
 
 # networkmanagement
 #kdeplasma-applets-networkmanagement conflicts with plasma-nm now
-kf5-plasma-nm
+plasma-nm
 modemmanager
 mobile-broadband-provider-info
 networkmanager-dispatcher-ntpd
@@ -264,8 +264,8 @@ welcome
 
 # extragear
 #kf5-quassel
-kf5-rekonq
-kf5-qupzilla
+rekonq
+qupzilla
 kf5-bluedevil
 ##qmmp
 ##vlc
@@ -278,6 +278,7 @@ kf5-kde-gtk-config
 oxygen-gtk2
 imagewriter
 tomoyo-tools
+kcp
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
@@ -287,26 +288,28 @@ kf5-kdeplasma-addons
 octopi
 #kio-mtp
 inxi
-kf5-kscreen
-kf5-kmymoney
+kscreen
+kmymoney
 #plasma-mediacenter
 #kcmsystemd
 xdg-user-dirs
 notepad
-kf5-skanlite
+skanlite
 okteta
-kf5-kdevelop
-kf5-konversation
+kdevelop
+konversation
 qt5-wayland
 kstars
 kgeography
 kanagram
 kig
-seafile-client
+#seafile-client
+dropbox
 #webcamoid conflicts with opencv-qt5
 #qbittorrent
 kf5-kdegraphics-thumbnailers
 ffmpegthumbs
+audiothumbs
 kget
 kruler
 kcharselect
@@ -318,7 +321,7 @@ kbruch
 
 #kodi
 #blender
-kf5-kdenlive
+kdenlive
 #spideroak
 #calibre
 #grub2-editor
@@ -356,9 +359,9 @@ bovo
 kbounce
 
 #IM
-##telepathy-idle
-##telepathy-haze
-##telepathy-gabble
-##telepathy-logger
-##telepathy-salut
-#kde-telepathy
+telepathy-idle
+telepathy-haze
+telepathy-gabble
+telepathy-logger
+telepathy-salut
+kf5-kde-telepathy

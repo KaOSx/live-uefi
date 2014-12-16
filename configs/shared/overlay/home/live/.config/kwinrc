@@ -1,5 +1,5 @@
 [Compositing]
-Backend=XRender
+GLPlatformInterface=egl
 OpenGLIsUnsafe=false
 
 [Desktops]
