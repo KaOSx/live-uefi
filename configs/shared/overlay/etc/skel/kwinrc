@@ -1,5 +1,4 @@
 [Compositing]
-GLPlatformInterface=egl
 OpenGLIsUnsafe=false
 
 [Desktops]

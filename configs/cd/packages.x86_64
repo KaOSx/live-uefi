@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 201412115
+# Version: 201412129
 
 ### These should probably be present
 base  
@@ -198,16 +198,13 @@ kmix
 # themes 
 #kde-kdm-themes-midna
 #kde-ksplash-themes-midna
-kde-plasma-themes-midna
-wallpapers-midna
+midna-themes
 plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
 python2-imaging
-#platinum-colors
-midna-colors
 flattr-icons
 
 # kde (everything else)
@@ -216,12 +213,12 @@ kmenuedit
 ksysguard
 kwalletmanager
 milou
-kf5-partitionmanager
+partitionmanager
 gwenview
 okular
 ark
 ksnapshot
-kf5-yakuake
+yakuake
 ##kdeutils-kgpg
 ##kdeutils-sweeper
 ##kdeplasma-addons-applets-icontasks
@@ -229,7 +226,7 @@ kf5-yakuake
 ##appmenu-qt5
 #kcm-touchpad
 kdeconnect-kde
-kf5-sddm-kcm
+sddm-kcm
 
 # locales
 #kde-l10n-ca
@@ -260,25 +257,25 @@ keyboardctl
 librsvg
 calamares
 welcome
-#thus
 
 # extragear
-#kf5-quassel
+quassel
 rekonq
 qupzilla
 kf5-bluedevil
 ##qmmp
 ##vlc
-dragon
-##smplayer segfaults with qt54
-##smtube
+#dragon
+smplayer 
+smtube
 ##amarok
 #clementine
-kf5-kde-gtk-config
+kde-gtk-config
 oxygen-gtk2
 imagewriter
 tomoyo-tools
 kcp
+base-devel
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
@@ -308,6 +305,7 @@ dropbox
 #webcamoid conflicts with opencv-qt5
 #qbittorrent
 kf5-kdegraphics-thumbnailers
+kf5-kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 kget
@@ -322,6 +320,7 @@ kbruch
 #kodi
 #blender
 kdenlive
+digikam
 #spideroak
 #calibre
 #grub2-editor
@@ -332,7 +331,7 @@ dvd+rw-tools
 vcdimager
 transcode
 emovix
-kf5-k3b
+k3b
 
 # debugging
 gdb
