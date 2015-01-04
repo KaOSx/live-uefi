@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 201412129
+# Version: 20150104
 
 ### These should probably be present
 base  
@@ -301,7 +301,7 @@ kgeography
 kanagram
 kig
 #seafile-client
-dropbox
+#dropbox
 #webcamoid conflicts with opencv-qt5
 #qbittorrent
 kf5-kdegraphics-thumbnailers
@@ -316,6 +316,7 @@ kompare
 kolourpaint
 kcalc
 kbruch
+simplescreenrecorder
 
 #kodi
 #blender

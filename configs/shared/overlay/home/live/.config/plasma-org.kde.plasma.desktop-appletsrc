@@ -91,7 +91,4 @@ wallpaperplugin=org.kde.image
 DialogHeight=648
 DialogWidth=720
 
-[Containments][7][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/midna/contents/images/2546x1591.jpg
-SlidePaths=
 
