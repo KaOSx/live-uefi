@@ -89,8 +89,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=Breeze
-Name=Breeze
+ColorScheme=Midna
+Name=Midna
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=none
@@ -107,7 +107,7 @@ toolBarFont=Oxygen-Sans,9,-1,5,50,0,0,0,0,0
 Theme=breeze
 
 [KDE]
-ColorScheme=Breeze
+ColorScheme=Midna
 contrast=4
 
 [KFileDialog Settings]
