@@ -1,7 +1,8 @@
 [Added Associations]
-application/xhtml+xml=kde4-kate.desktop;writer.desktop;
-text/plain=kde4-kate.desktop;writer.desktop;
-text/x-cmake=kde4-kate.desktop;writer.desktop;
-text/x-txt2tags=kde4-kate.desktop;writer.desktop;
+application/xhtml+xml=org.kde.kate.desktop;
+text/plain=org.kde.kate.desktop;
+text/x-cmake=org.kde.kate.desktop;
+text/x-txt2tags=org.kde.kate.desktop;
 text/html=qupzilla.desktop;
-text/xml=kde4-kate.desktop;writer.desktop;
+text/xml=org.kde.kate.desktop;
+inode/directory=org.kde.dolphin.desktop;

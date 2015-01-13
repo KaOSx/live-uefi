@@ -1,8 +1,2 @@
-ksplashrc KSplash Theme Default
+ksplashrc KSplash Theme Midna
 ksplashrc KSplash Engine KSplashQML
-kcmrandrrc Display ApplyOnStartup false
-kcmrandrrc [Screen0]
-kcmrandrrc [Screen1]
-kcmrandrrc [Screen2]
-kcmrandrrc [Screen3]
-kdeglobals Locale Language '' # trigger requesting languages from KLocale
