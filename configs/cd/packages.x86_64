@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20150104
+# Version: 20150114
 
 ### These should probably be present
 base  
@@ -224,7 +224,7 @@ yakuake
 ##kdeplasma-addons-applets-icontasks
 ##kdenetwork-kppp
 ##appmenu-qt5
-#kcm-touchpad
+kcm-touchpad
 kdeconnect-kde
 sddm-kcm
 
@@ -259,7 +259,7 @@ calamares
 welcome
 
 # extragear
-quassel
+#quassel
 rekonq
 qupzilla
 kf5-bluedevil
@@ -269,7 +269,7 @@ kf5-bluedevil
 smplayer 
 smtube
 ##amarok
-#clementine
+clementine
 kde-gtk-config
 oxygen-gtk2
 imagewriter
@@ -317,6 +317,8 @@ kolourpaint
 kcalc
 kbruch
 simplescreenrecorder
+ksshaskpass
+kf5-kdepim
 
 #kodi
 #blender
@@ -350,8 +352,8 @@ samba
 a2ps
 
 # office
-##calligra
-##calligra-l10n
+calligra
+calligra-l10n
 
 # games
 ##kdegames-kpat
