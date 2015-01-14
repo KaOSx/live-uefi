@@ -107,7 +107,7 @@ toolBarFont=Oxygen-Sans,9,-1,5,50,0,0,0,0,0
 Theme=breeze
 
 [KDE]
-ColorScheme=Breeze
+ColorScheme=Midna
 LookAndFeelPackage=org.kde.midna.desktop
 ShowDeleteCommand=true
 SingleClick=true
