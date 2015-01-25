@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20150114
+# Version: 20150125
 
 ### These should probably be present
 base  
@@ -30,7 +30,6 @@ os-prober
 hwdetect
 dmidecode
 bc
-##virtuoso
 xdelta3
 avahi
 ntfs-3g
@@ -192,7 +191,7 @@ breeze
 sddm
 kate
 konsole
-plasma-volume-control
+##plasma-volume-control
 kmix
 
 # themes 
@@ -227,6 +226,8 @@ yakuake
 kcm-touchpad
 kdeconnect-kde
 sddm-kcm
+about-distro
+wacomtablet
 
 # locales
 #kde-l10n-ca
@@ -318,7 +319,9 @@ kcalc
 kbruch
 simplescreenrecorder
 ksshaskpass
-kf5-kdepim
+##kf5-kdepim
+trojita
+choqok
 
 #kodi
 #blender
@@ -366,4 +369,4 @@ telepathy-haze
 telepathy-gabble
 telepathy-logger
 telepathy-salut
-kf5-kde-telepathy
+kde-telepathy
