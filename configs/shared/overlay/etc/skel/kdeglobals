@@ -112,7 +112,7 @@ LookAndFeelPackage=org.kde.midna.desktop
 ShowDeleteCommand=true
 SingleClick=true
 contrast=4
-widgetStyle=breeze
+widgetStyle=qtcurve
 
 [KFileDialog Settings]
 Automatically select filename extension=true
