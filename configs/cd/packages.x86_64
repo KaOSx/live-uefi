@@ -188,7 +188,9 @@ kde-baseapps
 systemsettings
 oxygen-fonts
 breeze
-breeze4
+#breeze4
+#qtcurve4
+#sni-qt
 sddm
 kate
 konsole
@@ -225,7 +227,7 @@ yakuake
 ##kdenetwork-kppp
 ##appmenu-qt5
 kcm-touchpad
-kdeconnect-kde
+#kdeconnect-kde
 sddm-kcm
 about-distro
 wacomtablet
@@ -274,7 +276,7 @@ smtube
 #clementine
 kde-gtk-config
 oxygen-gtk2
-imagewriter
+#imagewriter
 tomoyo-tools
 #kcp
 #base-devel
@@ -288,7 +290,7 @@ octopi
 #kio-mtp
 inxi
 kscreen
-kmymoney
+#kmymoney
 #plasma-mediacenter
 #kcmsystemd
 xdg-user-dirs
@@ -297,7 +299,7 @@ xdg-user-dirs
 #okteta
 #kdevelop
 konversation
-qt5-wayland
+#qt5-wayland
 #kstars
 #kgeography
 #kanagram
