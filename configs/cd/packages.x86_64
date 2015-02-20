@@ -306,7 +306,8 @@ qt5-wayland
 #kig
 seafile-client
 #dropbox
-webcamoid 
+##webcamoid 
+kamoso
 #qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
@@ -362,9 +363,9 @@ calligra
 calligra-l10n
 
 # games
-##kdegames-kpat
-bovo
-kbounce
+kpat
+#bovo
+#kbounce
 
 #IM
 telepathy-idle
