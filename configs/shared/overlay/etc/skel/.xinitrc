@@ -6,8 +6,6 @@
 # Executed by startx (run your window manager from here)
 #
 
-exec dbus-launch --exit-with-session startkde
-
 if [[ "$DESKTOP_SESSION" == "plasma" ]]; then
         export QTDIR="/usr/lib/qt5"
         export PATH="usr/bin:$QTDIR/bin:$PATH"
@@ -18,4 +16,7 @@ if [[ "$DESKTOP_SESSION" == "plasma" ]]; then
 	export KDE_SESSION_VERSION=5
 	export KDE_FULL_SESSION=true
 fi
+
+exec dbus-launch --exit-with-session startkde
+
 
