@@ -292,7 +292,7 @@ inxi
 kscreen
 #kmymoney
 #plasma-mediacenter
-#kcmsystemd
+kcmsystemd
 xdg-user-dirs
 #notepad
 #skanlite
