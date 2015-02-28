@@ -182,6 +182,7 @@ libcanberra-pulse
 
 # kf5 (minimal base)
 kf5
+kde-common
 plasma-workspace
 plasma-desktop
 kde-baseapps
