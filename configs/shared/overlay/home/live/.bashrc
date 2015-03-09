@@ -29,6 +29,7 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias vp='vim PKGBUILD'
 alias vs='vim SPLITBUILD'
+alias upd='mirror-check && sudo pacman -Syu'
 
 # ex - archive extractor
 # usage: ex <file>
