@@ -143,6 +143,6 @@ inactiveForeground=189,195,199
 
 [Wallpaper]
 defaultWallpaperTheme=midna
-defaultFileSuffix=.jpg
-defaultWidth=2560
-defaultHeight=1600
+defaultFileSuffix=.png
+defaultWidth=3648
+defaultHeight=2736

@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20150215
+# Version: 20150402
 
 ### These should probably be present
 base  
@@ -12,7 +12,6 @@ sshfs
 linux-headers
 squashfs-tools
 ##aufs3-util
-##cdemu-client
 lsb-release
 
 # basic needs
@@ -71,9 +70,6 @@ zip
 ##unarj
 
 # wireless drivers and tools
-#madwifi
-#ndiswrapper
-#ndiswrapper-utils
 wireless_tools
 wireless-regdb
 dnsutils
@@ -98,7 +94,6 @@ isl3887usb-firmware
 isl3890-firmware
 linux-firmware
 zd1211-firmware
-#amd-ucode  part of linux-firmware 07-26 2013
 intel-ucode
 
 # xorg base
@@ -115,38 +110,11 @@ xorg-fonts-encodings
 xorg-fonts-misc
 
 # xorg video drivers
-#xf86-video-apm
-#xf86-video-ark
 xf86-video-ati
-#xf86-video-chips
-#xf86-video-cirrus
-#xf86-video-geode
-#xf86-video-glint
-#xf86-video-i128
-#xf86-video-i740
 xf86-video-intel
-#xf86-video-mach64
-#xf86-video-mga
-#xf86-video-neomagic
 xf86-video-nouveau
-#xf86-video-nv
-#xf86-video-openchrome
-#xf86-video-radeonhd
-#xf86-video-r128
-#xf86-video-rendition
-#xf86-video-s3
-#xf86-video-s3virge
-#xf86-video-savage
-#xf86-video-siliconmotion
-#xf86-video-sis
-#xf86-video-sisusb
-#xf86-video-tdfx
-#xf86-video-trident
-#xf86-video-tseng
-#xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
-#xf86-video-voodoo
 
 # xorg input drivers
 xorg-input-drivers
@@ -169,7 +137,6 @@ hicolor-icon-theme
 # sound (basic)
 phonon-backend-gstreamer
 #phonon-backend-vlc
-#phonon-backend-mplayer
 libcanberra-gstreamer
 libao
 alsa-lib
@@ -189,9 +156,9 @@ kde-baseapps
 systemsettings
 oxygen-fonts
 breeze
-breeze4
-qtcurve4
-sni-qt
+#breeze4
+#qtcurve4
+#sni-qt
 sddm
 kate
 konsole
@@ -202,8 +169,8 @@ kmix
 #kde-kdm-themes-midna
 #kde-ksplash-themes-midna
 midna-themes
-plasma-workspace-wallpapers
-KaOS_wallpapers
+#plasma-workspace-wallpapers
+#KaOS_wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
@@ -224,7 +191,6 @@ ksnapshot
 yakuake
 ##kdeutils-kgpg
 ##kdeutils-sweeper
-##kdeplasma-addons-applets-icontasks
 ##kdenetwork-kppp
 ##appmenu-qt5
 kcm-touchpad
@@ -242,10 +208,9 @@ wacomtablet
 #kde-l10n-nl
 #kde-l10n-pt_BR
 
-kde-l10n
+##kde-l10n
 
 # networkmanagement
-#kdeplasma-applets-networkmanagement conflicts with plasma-nm now
 plasma-nm
 modemmanager
 mobile-broadband-provider-info
@@ -263,24 +228,24 @@ librsvg
 calamares
 welcome
 
-# extragear
-quassel
+## extragear
+#quassel
 ##rekonq
 qupzilla
 bluedevil
 ##qmmp
 ##vlc
-#dragon
+##dragon
 smplayer 
 smtube
 ##amarok
-clementine
-kde-gtk-config
-oxygen-gtk2
-imagewriter
+#clementine
+#kde-gtk-config
+#oxygen-gtk2
+#imagewriter
 tomoyo-tools
-kcp
-base-devel
+#kcp
+#base-devel
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
@@ -288,45 +253,45 @@ kdeplasma-addons
 #homerun 
 #kdeplasma-applets-appmenu-qml
 octopi
-#kio-mtp
+###kio-mtp
 inxi
 kscreen
-#kmymoney
-#plasma-mediacenter
+###kmymoney
+###plasma-mediacenter
 kcmsystemd
 xdg-user-dirs
-#notepad
-#skanlite
-#okteta
-#kdevelop
+###notepad
+##skanlite
+##okteta
+##kdevelop
 ##konversation
 qt5-wayland
-#kstars
-#kgeography
-#kanagram
-#kig
-seafile-client
-#dropbox
-##webcamoid 
-kamoso
-#qbittorrent
+##kstars
+##kgeography
+##kanagram
+##kig
+#seafile-client
+###dropbox
+###webcamoid 
+#kamoso
+##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
-kget
-kruler
-kcharselect
-#khangman
-kompare
-#kolourpaint
-#kcalc
-#kbruch
-simplescreenrecorder
-ksshaskpass
-#kdepim
-#trojita
-#choqok
+#kget
+#kruler
+#kcharselect
+##khangman
+#kompare
+##kolourpaint
+##kcalc
+##kbruch
+#simplescreenrecorder
+#ksshaskpass
+##kdepim
+##trojita
+##choqok
 
 #kodi
 #blender
@@ -335,43 +300,42 @@ ksshaskpass
 #spideroak
 #calibre
 #grub2-editor
-##hotot
 
 # burn
-dvd+rw-tools
-vcdimager
-transcode
-emovix
-k3b
+#dvd+rw-tools
+#vcdimager
+#transcode
+#emovix
+#k3b
 
 # debugging
 gdb
 
 # printing
-cups
-gutenprint 
-system-config-printer 
-cups-pdf 
-print-manager
-hplip
-epsoneplijs
-epson-inkjet-printer-escpr
-samba
-a2ps
+#cups
+#gutenprint 
+#system-config-printer 
+#cups-pdf 
+#print-manager
+#hplip
+#epsoneplijs
+#epson-inkjet-printer-escpr
+#samba
+#a2ps
 
 # office
-calligra
-calligra-l10n
+#calligra
+#calligra-l10n
 
 # games
-kpat
-#bovo
-#kbounce
+#kpat
+##bovo
+##kbounce
 
 #IM
-telepathy-idle
-telepathy-haze
-telepathy-gabble
-telepathy-logger
-telepathy-salut
-kde-telepathy
+#telepathy-idle
+#telepathy-haze
+#telepathy-gabble
+#telepathy-logger
+#telepathy-salut
+#kde-telepathy
