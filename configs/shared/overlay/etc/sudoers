@@ -46,3 +46,5 @@ live    ALL=NOPASSWD: /usr/lib/installer/installerlauncherworker
 # %bundle ALL=NOPASSWD: /bin/umount *
 # %bundle ALL=NOPASSWD: /usr/bin/pacman -Sy
 # %bundle ALL=NOPASSWD: /usr/bin/yaourt -Sy
+Defaults env_keep += "QTDIR PATH QT_PLUGIN_PATH QT_INCLUDE_PATH QML2_IMPORT_PATH KDE_SESSION_VERSION KDE_FULL_SESSION"
+
