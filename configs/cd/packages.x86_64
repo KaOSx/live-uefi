@@ -193,10 +193,10 @@ yakuake
 ##kdeutils-sweeper
 ##kdenetwork-kppp
 ##appmenu-qt5
-kcm-touchpad
+##kcm-touchpad
 kdeconnect-kde
 sddm-kcm
-about-distro
+##about-distro
 wacomtablet
 
 # locales
