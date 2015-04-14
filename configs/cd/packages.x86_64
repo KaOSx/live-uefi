@@ -235,9 +235,9 @@ qupzilla
 bluedevil
 ##qmmp
 ##vlc
-##dragon
-smplayer 
-smtube
+dragon
+#smplayer 
+#smtube
 ##amarok
 #clementine
 #kde-gtk-config
