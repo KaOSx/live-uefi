@@ -17,7 +17,6 @@ lsb-release
 # basic needs
 nbd
 kdeos-hardware-detection
-#hwd
 syslinux
 prebootloader
 gummiboot
@@ -166,8 +165,6 @@ konsole
 kmix
 
 # themes 
-#kde-kdm-themes-midna
-#kde-ksplash-themes-midna
 midna-themes
 plasma-workspace-wallpapers
 KaOS_wallpapers
@@ -187,7 +184,7 @@ partitionmanager
 gwenview
 okular
 ark
-ksnapshot
+kscreengenie
 yakuake
 ##kdeutils-kgpg
 sweeper
@@ -254,7 +251,6 @@ kdeplasma-addons
 #homerun 
 #kdeplasma-applets-appmenu-qml
 octopi
-###kio-mtp
 inxi
 kscreen
 ###kmymoney
