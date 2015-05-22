@@ -48,7 +48,7 @@ iasl
 
 # catalyst fixes
 xinetd
-netkit-bsd-finger
+#netkit-bsd-finger
 libstdc++5
 
 # generally useful tools that dont require X
