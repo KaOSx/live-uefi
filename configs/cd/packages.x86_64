@@ -161,8 +161,8 @@ breeze
 sddm
 kate
 konsole
-##plasma-volume-control
-kmix
+plasma-volume-control
+#kmix
 
 # themes 
 midna-themes
