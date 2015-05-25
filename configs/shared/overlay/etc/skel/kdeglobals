@@ -104,7 +104,7 @@ taskbarFont=Oxygen-Sans,10,-1,5,50,0,0,0,0,0
 toolBarFont=Oxygen-Sans,9,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=breeze
+Theme=midna
 
 [KDE]
 ColorScheme=Midna
