@@ -166,13 +166,13 @@ plasma-volume-control
 
 # themes 
 midna-themes
-##plasma-workspace-wallpapers
+#plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
 python2-imaging
-flattr-icons
+##flattr-icons
 
 # kde (everything else)
 kinfocenter
@@ -240,7 +240,7 @@ bluedevil
 #cantata
 #kde-gtk-config
 #oxygen-gtk2
-#imagewriter
+imagewriter
 tomoyo-tools
 #kcp
 #base-devel

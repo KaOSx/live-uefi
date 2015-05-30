@@ -109,7 +109,7 @@ make_efi() {
         cp ${work_dir}/root-image/usr/lib/prebootloader/PreLoader.efi ${work_dir}/iso/EFI/boot/bootx64.efi
         cp ${work_dir}/root-image/usr/lib/prebootloader/HashTool.efi ${work_dir}/iso/EFI/boot/
 
-        cp ${work_dir}/root-image/usr/lib/gummiboot/gummibootx64.efi ${work_dir}/iso/EFI/boot/loader.efi
+        cp ${work_dir}/root-image/usr/lib/systemd/boot/efi/systemd-bootx64.efi ${work_dir}/iso/EFI/boot/loader.efi
 
         mkdir -p ${work_dir}/iso/loader/entries
         cp boot-files/loader/loader.conf ${work_dir}/iso/loader/
@@ -152,7 +152,7 @@ make_efiboot() {
         cp ${work_dir}/root-image/usr/lib/prebootloader/PreLoader.efi ${work_dir}/efiboot/EFI/boot/bootx64.efi
         cp ${work_dir}/root-image/usr/lib/prebootloader/HashTool.efi ${work_dir}/efiboot/EFI/boot/
 
-        cp ${work_dir}/root-image/usr/lib/gummiboot/gummibootx64.efi ${work_dir}/efiboot/EFI/boot/loader.efi
+        cp ${work_dir}/root-image/usr/lib/systemd//boot/efi/systemd-bootx64.efi ${work_dir}/efiboot/EFI/boot/loader.efi
 
         mkdir -p ${work_dir}/efiboot/loader/entries
         cp boot-files/loader/loader.conf ${work_dir}/efiboot/loader/
