@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20150522
+# Version: 20150603
 
 ### These should probably be present
 base  
@@ -19,7 +19,7 @@ nbd
 kdeos-hardware-detection
 syslinux
 prebootloader
-gummiboot
+##gummiboot
 refind-efi
 grub-common
 grub-bios
@@ -267,6 +267,7 @@ qt5-wayland
 ##kgeography
 ##kanagram
 ##kig
+#kup
 #seafile-client
 ###dropbox
 ###webcamoid 
