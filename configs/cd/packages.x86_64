@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20150609
+# Version: 20150610
 
 ### These should probably be present
 base  
@@ -156,8 +156,8 @@ systemsettings
 oxygen-fonts
 breeze
 ##breeze4
-##qtcurve4
-##sni-qt
+qtcurve4
+sni-qt
 sddm
 kate
 konsole
@@ -316,6 +316,7 @@ system-config-printer
 cups-pdf 
 print-manager
 hplip
+pyqt-python2
 epsoneplijs
 epson-inkjet-printer-escpr
 samba
