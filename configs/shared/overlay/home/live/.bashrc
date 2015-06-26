@@ -30,6 +30,7 @@ alias free='free -m'                      # show sizes in MB
 alias vp='vim PKGBUILD'
 alias vs='vim SPLITBUILD'
 alias upd='mirror-check && sudo pacman -Syu'
+alias dvdburn='growisofs -Z /dev/sr0 -R -J'
 
 # ex - archive extractor
 # usage: ex <file>

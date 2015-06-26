@@ -156,8 +156,8 @@ systemsettings
 oxygen-fonts
 breeze
 ##breeze4
-qtcurve4
-sni-qt
+#qtcurve4
+#sni-qt
 sddm
 kate
 konsole
@@ -166,7 +166,7 @@ plasma-volume-control
 
 # themes 
 midna-themes
-plasma-workspace-wallpapers
+#plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
 python2-xlib
@@ -205,7 +205,7 @@ wacomtablet
 #kde-l10n-nl
 #kde-l10n-pt_BR
 
-kde-l10n
+#kde-l10n
 
 # networkmanagement
 plasma-nm
@@ -226,24 +226,24 @@ calamares
 welcome
 
 ## extragear
-quassel
+#quassel
 ##rekonq
 qupzilla
 bluedevil
 ##qmmp
 ##vlc
 #dragon
-smplayer 
-smtube
+#smplayer 
+#smtube
 ##amarok
-clementine
+#clementine
 #cantata
-kde-gtk-config
-oxygen-gtk2
+#kde-gtk-config
+#oxygen-gtk2
 imagewriter
 tomoyo-tools
-kcp
-base-devel
+#kcp
+#base-devel
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
@@ -267,25 +267,25 @@ qt5-wayland
 ##kgeography
 ##kanagram
 ##kig
-kup
-#seafile-client
+#kup
+##seafile-client
 ###dropbox
 ###webcamoid 
-kamoso
+#kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
-kget
-kruler
+#kget
+#kruler
 kcharselect
 ##khangman
 kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-simplescreenrecorder
+#simplescreenrecorder
 #ksshaskpass
 ##kdepim
 ##trojita
@@ -300,41 +300,41 @@ simplescreenrecorder
 #grub2-editor
 
 # burn
-dvd+rw-tools
-vcdimager
-transcode
-emovix
-k3b
+#dvd+rw-tools
+#vcdimager
+#transcode
+#emovix
+#k3b
 
 # debugging
 gdb
 
 # printing
-cups
-gutenprint 
-system-config-printer 
-cups-pdf 
-print-manager
-hplip
-pyqt-python2
-epsoneplijs
-epson-inkjet-printer-escpr
-samba
-a2ps
+#cups
+#gutenprint 
+#system-config-printer 
+#cups-pdf 
+#print-manager
+#hplip
+#pyqt-python2
+#epsoneplijs
+#epson-inkjet-printer-escpr
+#samba
+#a2ps
 
 # office
-calligra
-calligra-l10n
+#calligra
+#calligra-l10n
 
 ## games
-kpat
+#kpat
 ##bovo
 ##kbounce
 
 #IM
-telepathy-idle
-telepathy-haze
-telepathy-gabble
-telepathy-logger
-telepathy-salut
-kde-telepathy
+#telepathy-idle
+#telepathy-haze
+#telepathy-gabble
+#telepathy-logger
+#telepathy-salut
+#kde-telepathy
