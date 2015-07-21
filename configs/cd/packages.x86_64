@@ -255,7 +255,7 @@ inxi
 kscreen
 ###kmymoney
 ###plasma-mediacenter
-kcmsystemd
+systemd-kcm
 xdg-user-dirs
 ###notepad
 ##skanlite

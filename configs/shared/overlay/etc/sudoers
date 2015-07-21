@@ -22,14 +22,10 @@ root	ALL=(ALL) ALL
 live    ALL=(ALL) ALL
 live    ALL=NOPASSWD: /bin/cp
 live    ALL=NOPASSWD: /usr/bin/dbus-launch
-live    ALL=NOPASSWD: /usr/bin/installerlauncher
-live    ALL=NOPASSWD: /usr/bin/installer
 live    ALL=NOPASSWD: /usr/bin/calamares
-live    ALL=NOPASSWD: /usr/bin/thus
 live	ALL=NOPASSWD: /usr/bin/pacman
 live	ALL=NOPASSWD: /usr/bin/partitionmanager
 live    ALL=NOPASSWD: /usr/bin/netcfgGUI
-live    ALL=NOPASSWD: /usr/lib/installer/installerlauncherworker
 
 # Uncomment to allow people in group wheel to run all commands
 # %wheel	ALL=(ALL) ALL
@@ -41,10 +37,5 @@ live    ALL=NOPASSWD: /usr/lib/installer/installerlauncherworker
 # %users  ALL=/sbin/mount /cdrom,/sbin/umount /cdrom
 # %users  localhost=/sbin/shutdown -h now
 
-# %bundle ALL=NOPASSWD: /bin/mount -o loop -t squashfs *
-# %bundle ALL=NOPASSWD: /bin/mount -o loop -t ext4 *
-# %bundle ALL=NOPASSWD: /bin/umount *
-# %bundle ALL=NOPASSWD: /usr/bin/pacman -Sy
-# %bundle ALL=NOPASSWD: /usr/bin/yaourt -Sy
 Defaults env_keep += "QTDIR PATH QT_PLUGIN_PATH QT_INCLUDE_PATH QML2_IMPORT_PATH KDE_SESSION_VERSION KDE_FULL_SESSION"
 
