@@ -213,6 +213,7 @@ modemmanager
 mobile-broadband-provider-info
 networkmanager-dispatcher-ntpd
 #kcm-ufw
+ufw  # install ufw until kcm-ufw is ported/forked
 
 # installer + dependencies
 netctl   
