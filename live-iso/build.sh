@@ -84,7 +84,7 @@ make_boot() {
         if [ "`mount -l | grep ${work_dir}/boot-image`" != "" ]; then
            umount -f ${work_dir}/boot-image/proc ${work_dir}/boot-image/sys ${work_dir}/boot-image/dev ${work_dir}/boot-image
         fi
-        mount -t aufs -o br=${work_dir}/boot-image:${work_dir}/root-image=ro none ${work_dir}/boot-image
+        mount -t aufs -o br=${work_dir}/boot-image:${work_dir}/root-image=ro,xino=/dev/shm/aufs.xino none ${work_dir}/boot-image
         mount -t proc none ${work_dir}/boot-image/proc
         mount -t sysfs none ${work_dir}/boot-image/sys
         mount -o bind /dev ${work_dir}/boot-image/dev
