@@ -21,9 +21,10 @@ syslinux
 prebootloader
 ##gummiboot
 ##refind-efi
-grub-common
-grub-bios
-grub-efi
+grub
+##grub-common
+##grub-bios
+##grub-efi
 os-prober
 hwdetect
 dmidecode
