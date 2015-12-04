@@ -95,4 +95,7 @@ wallpaperplugin=org.kde.image
 DialogHeight=648
 DialogWidth=720
 
+[Containments][17][General]
+pressToMoveHelp=false
+showToolbox=false
 
