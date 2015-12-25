@@ -16,7 +16,7 @@ lsb-release
 
 # basic needs
 nbd
-kdeos-hardware-detection
+hardware-detection
 syslinux
 prebootloader
 ##gummiboot
