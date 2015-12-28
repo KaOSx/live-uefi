@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
  
 [Containments][1][Applets][16][Configuration][General]
-launchers=file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=dolphin
+launchers=file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=dolphin,file:///usr/share/applications/qupzilla.desktop?wmClass=QupZilla
 
 [Containments][1][Applets][14]
 immutability=1
@@ -35,6 +35,10 @@ useCustomButtonImage=true
 [Containments][1][Applets][3]
 immutability=1
 plugin=org.kde.plasma.pager
+
+[Containments][1][Applets][21]
+immutability=1
+plugin=org.kde.plasma.calculator
 
 [Containments][1][Applets][5]
 immutability=1
@@ -80,7 +84,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][1][General]
-AppletOrder=14;2;3;16;5;6
+AppletOrder=14;2;3;20;21;16;5;6
 
 [Containments][7]
 activityId=61a2f493-c308-4dbe-82cc-8041d536cc91
@@ -99,3 +103,6 @@ DialogWidth=720
 pressToMoveHelp=false
 showToolbox=false
 
+[Containments][1][Applets][20]
+immutability=1
+plugin=org.kde.plasma.lock_logout
