@@ -156,8 +156,8 @@ kde-baseapps
 systemsettings
 oxygen-fonts
 breeze
-#breeze4
-#qtcurve4
+breeze4
+qtcurve4
 ###sni-qt
 sddm
 kate
@@ -167,8 +167,8 @@ plasma-pa
 
 # themes 
 midna-themes
-#plasma-workspace-wallpapers
-#KaOS_wallpapers
+plasma-workspace-wallpapers
+KaOS_wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
@@ -207,7 +207,7 @@ wacomtablet
 #kde-l10n-nl
 #kde-l10n-pt_BR
 
-#kde-l10n
+kde-l10n
 
 # networkmanagement
 plasma-nm
@@ -229,24 +229,24 @@ calamares
 welcome
 
 ## extragear
-#quassel
+quassel
 ##rekonq
 qupzilla
 bluedevil
 ##qmmp
 ##vlc
 ##dragon
-#smplayer 
-#smtube
+smplayer 
+smtube
 ##amarok
-#clementine
+clementine
 ##cantata
-#kde-gtk-config
-#oxygen-gtk2
-#imagewriter
-#tomoyo-tools
-#kcp
-#base-devel
+kde-gtk-config
+oxygen-gtk2
+imagewriter
+tomoyo-tools
+kcp
+base-devel
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
@@ -258,29 +258,29 @@ inxi
 kscreen
 ###kmymoney
 ###plasma-mediacenter
-#systemd-kcm
+systemd-kcm
 xdg-user-dirs
 ###notepad
 ##skanlite
 ##okteta
 ##kdevelop
 ##konversation
-#qt5-wayland
+qt5-wayland
 ##kstars
 ##kgeography
 ##kanagram
 ##kig
-#kup
+kup
 ##seafile-client
 ###dropbox
 ###webcamoid 
-#kamoso
+kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
-#kget
+kget
 kruler
 kcharselect
 ##khangman
@@ -288,12 +288,12 @@ kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-#simplescreenrecorder
-#ksshaskpass
+simplescreenrecorder
+ksshaskpass
 ##kdepim
 ##trojita
 ##choqok
-#krita
+krita
 
 #kodi
 #blender
@@ -314,31 +314,31 @@ kompare
 gdb
 
 # printing
-#cups
-#gutenprint 
-#system-config-printer 
-#cups-pdf 
-#print-manager
-#hplip
-#pyqt-python2
-#epsoneplijs
-#epson-inkjet-printer-escpr
-#samba
-#a2ps
+cups
+gutenprint 
+system-config-printer 
+cups-pdf 
+print-manager
+hplip
+pyqt-python2
+epsoneplijs
+epson-inkjet-printer-escpr
+samba
+a2ps
 
 # office
-#calligra
-#calligra-l10n
+calligra
+calligra-l10n
 
 ## games
-#kpat
+kpat
 ##bovo
 ##kbounce
 
 #IM
-#telepathy-idle
-#telepathy-haze
-#telepathy-gabble
-#telepathy-logger
-#telepathy-salut
-#kde-telepathy
+telepathy-idle
+telepathy-haze
+telepathy-gabble
+telepathy-logger
+telepathy-salut
+kde-telepathy
