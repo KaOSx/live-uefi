@@ -197,6 +197,7 @@ kdeconnect-kde
 sddm-kcm
 ##about-distro
 wacomtablet
+user-kcm
 
 # locales
 #kde-l10n-ca

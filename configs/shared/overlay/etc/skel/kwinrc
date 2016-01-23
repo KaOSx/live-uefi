@@ -25,3 +25,11 @@ ShowToolTips=true
 
 [Windows]
 RollOverDesktops=true
+
+[org.kde.kdecoration2]
+BorderSize=Large
+ButtonsOnLeft=MS
+ButtonsOnRight=HIAX
+CloseOnDoubleClickOnMenu=false
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__FlatSquare-BlueFlat
