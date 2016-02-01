@@ -32,4 +32,4 @@ ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__FlatSquare-BlueFlat
+theme=__aurorae__svg__MidnaFlatNarrow
