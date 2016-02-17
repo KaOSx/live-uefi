@@ -182,6 +182,7 @@ ksysguard
 kwalletmanager
 milou
 partitionmanager
+partitionmanager-debug
 gwenview
 okular
 ark
@@ -226,7 +227,9 @@ hwinfo
 iso-codes
 keyboardctl
 librsvg
+kpmcore-debug
 calamares
+calamares-debug
 welcome
 
 ## extragear
