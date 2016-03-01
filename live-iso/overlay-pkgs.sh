@@ -11,12 +11,12 @@ WORKDIR=$(echo $2)
 
 echo " "
 if [ -z "${ARCHITECTURE}" ] ; then
-    ARCHITECTURE=$(pacman -Qi bash | grep "Architecture" | cut -d " " -f 5)
+    ARCHITECTURE=$(pacman -Qi bash | grep "Architecture" | cut -d " " -f 6)
     msg  "Architecture not supplied, defaulting to host's architecture: ${ARCHITECTURE}"
 fi
 
 if [ "${ARCHITECTURE}" != "i686" ] && [ "${ARCHITECTURE}" != "x86_64" ] ; then
-    ARCHITECTURE=$(pacman -Qi bash | grep "Architecture" | cut -d " " -f 5)
+    ARCHITECTURE=$(pacman -Qi bash | grep "Architecture" | cut -d " " -f 6)
     msg  "Incorrect arquitecture, defaulting to host's architecture: ${ARCHITECTURE}"
 fi
 

@@ -27,7 +27,7 @@ fi
 banner
 
 if [ -z "${arch}" ] ; then
-    arch=$(pacman -Qi bash | grep "Architecture" | cut -d " " -f 5)
+    arch=$(pacman -Qi bash | grep "Architecture" | cut -d " " -f 6)
     echo " "
     msg  "architecture not supplied, defaulting to host's architecture: ${arch}"
 fi
