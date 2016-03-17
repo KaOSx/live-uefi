@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20160310
+# Version: 20160317
 
 ### These should probably be present
 base  
@@ -19,7 +19,7 @@ nbd
 hardware-detection
 syslinux
 prebootloader
-##gummiboot
+efibootmgr
 ##refind-efi
 grub
 ##grub-common
@@ -156,8 +156,8 @@ kde-baseapps
 systemsettings
 oxygen-fonts
 breeze
-breeze4
-qtcurve4
+#breeze4
+#qtcurve4
 ###sni-qt
 sddm
 kate
@@ -167,7 +167,7 @@ plasma-pa
 
 # themes 
 midna-themes
-plasma-workspace-wallpapers
+#plasma-workspace-wallpapers
 KaOS_wallpapers
 grub-theme-midna
 python2-xlib
@@ -206,7 +206,7 @@ user-kcm
 #kde-l10n-nl
 #kde-l10n-pt_BR
 
-kde-l10n
+#kde-l10n
 
 # networkmanagement
 plasma-nm
@@ -230,24 +230,24 @@ calamares-debug
 welcome
 
 ## extragear
-quassel
+#quassel
 ##rekonq
 qupzilla
 bluedevil
 ##qmmp
 ##vlc
 ##dragon
-smplayer 
-smtube
+#smplayer 
+#smtube
 ##amarok
-clementine
+#clementine
 ##cantata
-kde-gtk-config
-oxygen-gtk2
+#kde-gtk-config
+#oxygen-gtk2
 imagewriter
 tomoyo-tools
-kcp
-base-devel
+#kcp
+#base-devel
 ##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
@@ -258,7 +258,7 @@ inxi
 kscreen
 ###kmymoney
 ###plasma-mediacenter
-systemd-kcm
+#systemd-kcm
 xdg-user-dirs
 ###notepad
 ##skanlite
@@ -270,18 +270,18 @@ qt5-wayland
 ##kgeography
 ##kanagram
 ##kig
-kup
+#kup
 ##seafile-client
 ###dropbox
 ###webcamoid 
-kamoso
+#kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 keneric
-kget
+#kget
 kruler
 kcharselect
 ##khangman
@@ -289,12 +289,12 @@ kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-simplescreenrecorder
+#simplescreenrecorder
 #ksshaskpass
 ##kdepim
 ##trojita
 ##choqok
-krita
+#krita
 
 #kodi
 #blender
@@ -315,24 +315,24 @@ krita
 gdb
 
 # printing
-cups
-gutenprint 
-system-config-printer 
-cups-pdf 
-print-manager
-hplip
-pyqt-python2
-epsoneplijs
-epson-inkjet-printer-escpr
-samba
-a2ps
+#cups
+#gutenprint 
+#system-config-printer 
+#cups-pdf 
+#print-manager
+#hplip
+#pyqt-python2
+#epsoneplijs
+#epson-inkjet-printer-escpr
+#samba
+#a2ps
 
 # office
-calligra
-calligra-l10n
+#calligra
+#calligra-l10n
 
 ## games
-kpat
+#kpat
 ##bovo
 ##kbounce
 
