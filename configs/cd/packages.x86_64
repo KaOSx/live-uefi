@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20160317
+# Version: 20160408
 
 ### These should probably be present
 base  
@@ -168,7 +168,7 @@ plasma-pa
 # themes 
 midna-themes
 #plasma-workspace-wallpapers
-KaOS_wallpapers
+#KaOS_wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
@@ -241,7 +241,7 @@ bluedevil
 #smtube
 ##amarok
 #clementine
-##cantata
+cantata
 #kde-gtk-config
 #oxygen-gtk2
 imagewriter
@@ -281,7 +281,8 @@ kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 keneric
-#kget
+##kget
+fatrat
 kruler
 kcharselect
 ##khangman
@@ -295,7 +296,9 @@ kompare
 ##trojita
 ##choqok
 #krita
-#pepper-flash
+pepper-flash
+kdepim
+kdepim-addons
 
 #kodi
 #blender
@@ -338,9 +341,9 @@ gdb
 ##kbounce
 
 #IM
-telepathy-idle
-telepathy-haze
-telepathy-gabble
-telepathy-logger
-telepathy-salut
-kde-telepathy
+#telepathy-idle
+#telepathy-haze
+#telepathy-gabble
+#telepathy-logger
+#telepathy-salut
+#kde-telepathy
