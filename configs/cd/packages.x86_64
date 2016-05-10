@@ -94,7 +94,7 @@ isl3887usb-firmware
 isl3890-firmware
 linux-firmware
 zd1211-firmware
-intel-ucode
+##intel-ucode build into the kernel starting with linux 4.5
 
 # xorg base
 xorg
@@ -135,8 +135,8 @@ ttf-indic-otf
 hicolor-icon-theme
 
 # sound (basic)
-phonon-backend-gstreamer
-#phonon-backend-vlc
+phonon-qt5-backend-gstreamer
+#phonon-qt5-backend-vlc
 libcanberra-gstreamer
 libao
 alsa-lib
