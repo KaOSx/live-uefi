@@ -23,6 +23,7 @@ live    ALL=(ALL) ALL
 live    ALL=NOPASSWD: /bin/cp
 live    ALL=NOPASSWD: /usr/bin/dbus-launch
 live    ALL=NOPASSWD: /usr/bin/calamares
+live    ALL=NOPASSWD: /usr/bin/sed
 live	ALL=NOPASSWD: /usr/bin/pacman
 live	ALL=NOPASSWD: /usr/bin/partitionmanager
 live    ALL=NOPASSWD: /usr/bin/netcfgGUI
