@@ -224,6 +224,7 @@ hwinfo
 iso-codes
 keyboardctl
 librsvg
+mkinitcpio-openswap  #  needed for luks on swap
 kpmcore-debug
 calamares
 calamares-debug
