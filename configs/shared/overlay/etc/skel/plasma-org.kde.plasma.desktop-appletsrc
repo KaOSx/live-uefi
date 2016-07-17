@@ -72,7 +72,7 @@ plugin=org.kde.plasma.volume
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][1][Applets][5][Configuration][General]
+[Containments][24][General]
 shownItems=octopi-notifier
 
 [Containments][1][Applets][5][Configuration][General]
