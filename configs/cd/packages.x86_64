@@ -175,6 +175,7 @@ python2-xlib
 ##python2-v4l2capture
 python2-imaging
 ##flattr-icons
+kaptan
 
 # kde (everything else)
 kinfocenter
@@ -246,7 +247,8 @@ smtube
 cantata
 kde-gtk-config
 oxygen-gtk2
-imagewriter
+##imagewriter
+isowriter
 tomoyo-tools
 kcp
 base-devel
