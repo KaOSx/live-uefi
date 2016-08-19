@@ -110,6 +110,7 @@ xorg-fonts-encodings
 xorg-fonts-misc
 
 # xorg video drivers
+xf86-video-amdgpu
 xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
