@@ -1,0 +1,9 @@
+[Desktop Entry]
+DefaultProfile=Profile #1.profile
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+DynamicTabTitles=true
+KeepOpen=false
