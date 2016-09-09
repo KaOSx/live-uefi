@@ -4,3 +4,10 @@ update_info=kscreenlocker.upd:0.1-autolock
 [Daemon]
 Autolock=false
 Timeout=0
+
+[Greeter]
+WallpaperPlugin=org.kde.image
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/midna/contents/images/3648x2736.png
+

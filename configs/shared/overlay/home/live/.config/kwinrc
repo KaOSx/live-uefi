@@ -10,6 +10,7 @@ cubeslideEnabled=false
 desktopchangeosdEnabled=false
 kwin4_effect_fadedesktopEnabled=false
 slideEnabled=true
+blurEnabled=false
 
 [Script-desktopchangeosd]
 PopupHideDelay=1000
