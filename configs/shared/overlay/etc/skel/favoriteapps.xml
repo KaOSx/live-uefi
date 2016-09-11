@@ -1,9 +1,0 @@
-<apps version="1">
-    <app serviceId="dolphin.desktop"/>
-    <app serviceId="qupzilla.desktop"/>
-    <app serviceId="mirror-check.desktop"/>
-    <app serviceId="smplayer.desktop"/>
-    <app serviceId="systemsettings.desktop"/>
-    <app serviceId="octopi.desktop"/>
-    <app serviceId="yakuake.desktop"/>
-</apps>

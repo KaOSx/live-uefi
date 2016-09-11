@@ -3,7 +3,7 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Number=2
-Rows=1
+Rows=2
 
 [Plugins]
 cubeslideEnabled=false
