@@ -155,7 +155,8 @@ plasma-workspace
 plasma-desktop
 kde-baseapps
 systemsettings
-oxygen-fonts
+oxygen
+##oxygen-fonts
 breeze
 #breeze4
 #qtcurve4

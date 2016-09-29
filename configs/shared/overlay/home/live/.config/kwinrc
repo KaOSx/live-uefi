@@ -16,21 +16,12 @@ blurEnabled=false
 PopupHideDelay=1000
 TextOnly=false
 
-[Style]
-BorderSize=1
-ButtonsOnLeft=MS
-ButtonsOnRight=HIAX
-CustomButtonPositions=false
-PluginLib=aurorae
-ShowToolTips=true
-
 [Windows]
 RollOverDesktops=true
 
 [org.kde.kdecoration2]
-BorderSize=Large
+BorderSize=Normal
 ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__MidnaFlatNarrow
+library=org.kde.breeze
