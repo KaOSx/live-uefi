@@ -43,6 +43,14 @@ Speedbar Width=104
 View Style=Detail
 detailedViewIconSize=0
 
+[WM]
+activeBackground=41,128,185
+activeBlend=86,96,96
+activeForeground=255,255,255
+inactiveBackground=52,73,94
+inactiveBlend=245,245,245
+inactiveForeground=245,245,245
+
 [Wallpaper]
 defaultWallpaperTheme=midna
 defaultFileSuffix=.png
