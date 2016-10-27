@@ -48,9 +48,9 @@ cpupower
 iasl
 
 # catalyst fixes
-xinetd
+#xinetd
 #netkit-bsd-finger
-libstdc++5
+#libstdc++5
 
 # generally useful tools that dont require X
 bash-completion
