@@ -225,7 +225,8 @@ rsync
 hdparm
 hwinfo      
 iso-codes
-keyboardctl
+###keyboardctl
+console-setup
 librsvg
 mkinitcpio-openswap  #  needed for luks on swap
 kpmcore-debug
@@ -328,7 +329,7 @@ gdb
 # printing
 #cups
 #gutenprint 
-#system-config-printer 
+###system-config-printer # gtk3
 #cups-pdf 
 #print-manager
 #hplip
