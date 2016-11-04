@@ -1,0 +1,9 @@
+[AC][DPMSControl]
+idleTime=3600
+
+[Battery][DPMSControl]
+idleTime=3600
+
+[LowBattery][DPMSControl]
+idleTime=3600
+
