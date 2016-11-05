@@ -153,7 +153,10 @@ kf5
 kde-common
 plasma-workspace
 plasma-desktop
-kde-baseapps
+###kde-baseapps
+kdialog
+kfind
+keditbookmarks
 systemsettings
 oxygen
 ##oxygen-fonts
@@ -237,6 +240,7 @@ welcome
 ## extragear
 quassel
 ##rekonq
+##konqueror
 qupzilla
 bluedevil
 ##qmmp
