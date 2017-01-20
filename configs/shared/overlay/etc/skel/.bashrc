@@ -35,6 +35,7 @@ alias vp='vim PKGBUILD'
 alias vs='vim SPLITBUILD'
 alias upd='mirror-check && sudo pacman -Syu'
 alias dvdburn='growisofs -Z /dev/sr0 -R -J'
+alias :pf='pkgfile -vri'
 
 # ex - archive extractor
 # usage: ex <file>
@@ -60,9 +61,9 @@ ex ()
   fi
 }
 
-# vim stuff
-export EDITOR=vim
-export VISUAL=vim
+# default editor
+export EDITOR=micro
+export VISUAL=micro
 alias vi=vim
 
 

@@ -36,7 +36,7 @@ lock:x:54:
 clamav:x:64:
 cdemu:x:103:live
 quassel:x:998:
-lpadmin:x:997:
+lpadmin:x:111:live
 rtkit:x:999:
 mysql:x:89:
 polkitd:x:102:
