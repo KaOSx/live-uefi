@@ -157,7 +157,7 @@ systemsettings
 oxygen
 ##oxygen-fonts
 breeze
-#breeze4
+breeze-gtk
 qtcurve-gtk
 ###sni-qt
 sddm
@@ -247,7 +247,7 @@ smtube
 ##clementine
 cantata
 kde-gtk-config
-oxygen-gtk2
+##oxygen-gtk2
 ##imagewriter
 isowriter
 tomoyo-tools
