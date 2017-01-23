@@ -158,7 +158,7 @@ oxygen
 ##oxygen-fonts
 breeze
 #breeze4
-#qtcurve4
+qtcurve-gtk
 ###sni-qt
 sddm
 kate
