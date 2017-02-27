@@ -237,9 +237,7 @@ quassel
 ##konqueror
 qupzilla
 bluedevil
-##qmmp
 ##vlc
-##dragon
 smplayer 
 smtube
 ##amarok
@@ -247,21 +245,17 @@ smtube
 cantata
 kde-gtk-config
 ##oxygen-gtk2
-##imagewriter
 isowriter
 tomoyo-tools
 kcp
 base-devel
-##python2-gobject3 no longer needed systemd 209
 ##clamav
 init-live
 kdeplasma-addons
-###kdeplasma-applets-appmenu-qml
 octopi
 inxi
 kscreen
 ###kmymoney
-###plasma-mediacenter
 systemd-kcm
 xdg-user-dirs
 ###notepad
@@ -302,6 +296,7 @@ krita
 pepper-flash
 micro
 ##kdepim-addons
+virtualbox-guest-utils
 
 ##kodi
 ##blender
