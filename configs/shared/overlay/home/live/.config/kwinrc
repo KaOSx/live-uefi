@@ -18,7 +18,7 @@ TextOnly=false
 
 [Windows]
 RollOverDesktops=true
-#Placement=Centered
+Placement=Centered
 
 [org.kde.kdecoration2]
 BorderSize=Normal
