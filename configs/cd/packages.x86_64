@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20170408
+# Version: 20170409
 
 ### These should probably be present
 base  
@@ -167,7 +167,7 @@ plasma-pa
 
 # themes 
 midna-themes
-#plasma-workspace-wallpapers
+plasma-workspace-wallpapers
 kaos-wallpapers
 grub-theme-midna
 python2-xlib
@@ -189,13 +189,13 @@ okular
 ark
 spectacle
 yakuake
-#kgpg
-#sweeper
+kgpg
+sweeper
 ##kdenetwork-kppp
 ##appmenu-qt5
-#kdeconnect-kde
+kdeconnect-kde
 sddm-kcm
-#wacomtablet
+wacomtablet
 user-kcm
 
 # locales
@@ -233,7 +233,7 @@ calamares-debug
 welcome
 
 ## extragear
-#quassel
+quassel
 ##konqueror
 qupzilla
 bluedevil
@@ -242,13 +242,13 @@ smplayer
 smtube
 ##amarok
 ##clementine
-#cantata
+cantata
 kde-gtk-config
 ##oxygen-gtk2
-#isowriter
-#tomoyo-tools
-#kcp
-#base-devel
+isowriter
+tomoyo-tools
+kcp
+base-devel
 ##clamav
 init-live
 kdeplasma-addons
@@ -256,7 +256,7 @@ octopi
 inxi
 kscreen
 ###kmymoney
-#systemd-kcm
+systemd-kcm
 xdg-user-dirs
 ###notepad
 ##skanlite
@@ -269,10 +269,10 @@ qt5-wayland
 ##kanagram
 ##kig
 ##kup
-#seafile-client
+seafile-client
 ###dropbox
 ###webcamoid 
-#kamoso
+kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
@@ -280,19 +280,19 @@ ffmpegthumbs
 audiothumbs
 keneric
 ##kget
-#fatrat
-#kruler
-#kcharselect
+fatrat
+kruler
+kcharselect
 ##khangman
-#kompare
+kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-#simplescreenrecorder
-#ksshaskpass
+simplescreenrecorder
+ksshaskpass
 ##trojita
 ##choqok
-#krita
+krita
 pepper-flash
 micro
 ##kdepim-addons
@@ -304,44 +304,44 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-#grub2-editor
+grub2-editor
 
 # burn
-#dvd+rw-tools
-#vcdimager
-#emovix
-#k3b
+dvd+rw-tools
+vcdimager
+emovix
+k3b
 ###qisoburn
 
 # debugging
 gdb
 
 # printing
-#cups
-#gutenprint 
+cups
+gutenprint 
 ###system-config-printer # gtk3
-#cups-pdf 
-#print-manager
-#hplip
-#pyqt5-python3
-#epsoneplijs
-#epson-inkjet-printer-escpr
-#samba
-#a2ps
+cups-pdf 
+print-manager
+hplip
+pyqt5-python3
+epsoneplijs
+epson-inkjet-printer-escpr
+samba
+a2ps
 
 # office
-#calligra
-#calligra-l10n
+calligra
+calligra-l10n
 
 ## games
-#kpat
+kpat
 ##bovo
 ##kbounce
 
 #IM
-#telepathy-idle
-#telepathy-haze
-#telepathy-gabble
-#telepathy-logger
-#telepathy-salut
-#kde-telepathy
+telepathy-idle
+telepathy-haze
+telepathy-gabble
+telepathy-logger
+telepathy-salut
+kde-telepathy
