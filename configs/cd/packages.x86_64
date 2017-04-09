@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20170302
+# Version: 20170408
 
 ### These should probably be present
 base  
@@ -156,8 +156,8 @@ systemsettings
 oxygen
 ##oxygen-fonts
 breeze
-#breeze-gtk
-#qtcurve-gtk
+breeze-gtk
+qtcurve-gtk
 ###sni-qt
 sddm
 kate
@@ -168,7 +168,7 @@ plasma-pa
 # themes 
 midna-themes
 #plasma-workspace-wallpapers
-#kaos-wallpapers
+kaos-wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
@@ -196,7 +196,7 @@ yakuake
 #kdeconnect-kde
 sddm-kcm
 #wacomtablet
-#user-kcm
+user-kcm
 
 # locales
 #kde-l10n-ca
@@ -243,7 +243,7 @@ smtube
 ##amarok
 ##clementine
 #cantata
-#kde-gtk-config
+kde-gtk-config
 ##oxygen-gtk2
 #isowriter
 #tomoyo-tools
@@ -293,7 +293,7 @@ keneric
 ##trojita
 ##choqok
 #krita
-#pepper-flash
+pepper-flash
 micro
 ##kdepim-addons
 virtualbox-guest-utils
