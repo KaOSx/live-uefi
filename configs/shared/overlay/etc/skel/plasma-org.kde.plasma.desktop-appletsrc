@@ -66,9 +66,9 @@ location=0
 plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][42][Wallpaper][org.kde.image][General]
-height=768
-width=1024
+[Containments][7][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/midna/contents/images/3648x2736.png
+SlidePaths=
 
 [Containments][43]
 activityId=
