@@ -66,9 +66,8 @@ location=0
 plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][42][Wallpaper][org.kde.image][General]
-height=768
-width=1024
+[Containments][52][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/midna/contents/images/3648x2736.png
 
 [Containments][43]
 activityId=
@@ -99,6 +98,10 @@ plugin=org.kde.plasma.lock_logout
 [Containments][43][Applets][46]
 immutability=1
 plugin=org.kde.plasma.calculator
+
+[Containments][43][Applets][31]
+immutability=1
+plugin=org.kde.plasma.notes
 
 [Containments][43][Applets][47]
 immutability=1
