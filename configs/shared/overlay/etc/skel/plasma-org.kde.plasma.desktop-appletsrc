@@ -57,15 +57,6 @@ plugin=org.kde.plasma.networkmanagement
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
 
-[Containments][42]
-activityId=3fbea802-5223-451b-8c8d-d42ce102d99e
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
-
 [Containments][7][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/midna/contents/images/3648x2736.png
 SlidePaths=
@@ -131,7 +122,7 @@ DialogHeight=768
 DialogWidth=175
 
 [Containments][43][General]
-AppletOrder=44;45;46;47;48;49;51
+AppletOrder=44;45;31;46;47;48;49;51
 
 [Containments][50]
 activityId=
