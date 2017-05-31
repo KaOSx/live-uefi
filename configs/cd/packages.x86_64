@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20170519
+# Version: 20170531
 
 ### These should probably be present
 base  
@@ -107,7 +107,7 @@ xorg-fonts-misc
 # xorg video drivers
 xf86-video-amdgpu
 xf86-video-ati
-##xf86-video-intel
+xf86-video-intel
 xf86-video-nouveau
 xf86-video-vesa
 xf86-video-vmware
@@ -155,8 +155,8 @@ systemsettings
 oxygen
 ##oxygen-fonts
 breeze
-#breeze-gtk
-#qtcurve-gtk
+breeze-gtk
+qtcurve-gtk
 ###sni-qt
 sddm
 kate
@@ -166,8 +166,8 @@ plasma-pa
 
 # themes 
 midna-themes
-#plasma-workspace-wallpapers
-#kaos-wallpapers
+plasma-workspace-wallpapers
+kaos-wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
@@ -233,22 +233,23 @@ calamares-debug
 welcome
 
 ## extragear
-#quassel
+quassel
 ##konqueror
 qupzilla
 bluedevil
 ##vlc
-#smplayer 
-#smtube
+smplayer 
+smtube
 ##amarok
 ##clementine
-#cantata
-#kde-gtk-config
+##cantata
+babe
+kde-gtk-config
 ##oxygen-gtk2
 isowriter
-#tomoyo-tools
-#kcp
-#base-devel
+tomoyo-tools
+kcp
+base-devel
 ##clamav
 init-live
 kdeplasma-addons
@@ -256,7 +257,7 @@ octopi
 inxi
 kscreen
 ###kmymoney
-#systemd-kcm
+systemd-kcm
 xdg-user-dirs
 ###notepad
 ##skanlite
@@ -269,10 +270,10 @@ qt5-wayland
 ##kanagram
 ##kig
 ##kup
-#seafile-client
+seafile-client
 ###dropbox
 ###webcamoid 
-#kamoso
+kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
@@ -280,19 +281,19 @@ ffmpegthumbs
 audiothumbs
 keneric
 ##kget
-#fatrat
-#kruler
-#kcharselect
+fatrat
+kruler
+kcharselect
 ##khangman
 kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-#simplescreenrecorder
-#ksshaskpass
+simplescreenrecorder
+ksshaskpass
 ##trojita
 ##choqok
-#krita
+krita
 #pepper-flash
 micro
 ##kdepim-addons
@@ -304,44 +305,44 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-#grub2-editor
+grub2-editor
 
 # burn
-#dvd+rw-tools
-#vcdimager
-#emovix
-#k3b
+dvd+rw-tools
+vcdimager
+emovix
+k3b
 ###qisoburn
 
 # debugging
 gdb
 
 # printing
-#cups
-#gutenprint 
+cups
+gutenprint 
 ###system-config-printer # gtk3
-#cups-pdf 
-#print-manager
-#hplip
-#pyqt5-python3
-#epsoneplijs
-#epson-inkjet-printer-escpr
-#samba
-#a2ps
+cups-pdf 
+print-manager
+hplip
+pyqt5-python3
+epsoneplijs
+epson-inkjet-printer-escpr
+samba
+a2ps
 
 # office
-#calligra
-#calligra-l10n
+calligra
+calligra-l10n
 
 ## games
-#kpat
+kpat
 ##bovo
 ##kbounce
 
 #IM
-#telepathy-idle
-#telepathy-haze
-#telepathy-gabble
-#telepathy-logger
-#telepathy-salut
-#kde-telepathy
+telepathy-idle
+telepathy-haze
+telepathy-gabble
+telepathy-logger
+telepathy-salut
+kde-telepathy
