@@ -3,6 +3,6 @@ application/xhtml+xml=org.kde.kate.desktop;
 text/plain=org.kde.kate.desktop;
 text/x-cmake=org.kde.kate.desktop;
 text/x-txt2tags=org.kde.kate.desktop;
-text/html=qupzilla.desktop;
+text/html=org.qupzilla.Qupzilla.desktop;
 text/xml=org.kde.kate.desktop;
 inode/directory=org.kde.dolphin.desktop;
