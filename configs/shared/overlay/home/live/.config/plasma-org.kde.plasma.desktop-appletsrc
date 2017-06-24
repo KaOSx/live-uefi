@@ -103,7 +103,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][43][Applets][48][Configuration][General]
-launchers=file:///usr/share/applications/welcome.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/org.qupzilla.Qupzilla.desktop
+launchers=file:///usr/share/applications/welcome.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/org.qupzilla.QupZilla.desktop
 
 [Containments][43][Applets][49]
 immutability=1
