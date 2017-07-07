@@ -171,7 +171,7 @@ midna-themes
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
-python2-imaging
+python2-pillow
 ##flattr-icons
 kaptan
 
