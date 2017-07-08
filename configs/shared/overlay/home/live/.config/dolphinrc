@@ -1,0 +1,50 @@
+﻿Height 900=660
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC0AAACdPwCAAAAAfsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAABoA////AAAAAQAAALQAAAKU/AIAAAAB/AAAAAAAAAKUAAABIQEAABr6AAAAAQEAAAAC+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAA/////wAAAD8A////+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAA2cAAAC0AAAArAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAD8A////AAADOAAAApQAAAAEAAAABAAAAAgAAAAI/AAAAAIAAAAAAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAAAA==
+Width 1600=1051
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[FileMetaDataConfigurationDialog]
+Height 900=295
+Width 1600=286
+
+[General]
+FilterBar=true
+GlobalViewProps=true
+ShowCopyMoveMenu=true
+ShowToolTips=true
+ViewPropsTimestamp=2017,7,8,21,28,43
+
+[IconsMode]
+FontWeight=50
+IconSize=48
+PreviewSize=48
+
+[MainWindow]
+Height 900=660
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC0AAACdPwCAAAAAfsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAABoA////AAAAAQAAALQAAAKU/AIAAAAB/AAAAAAAAAKUAAABIQEAABr6AAAAAAEAAAAC+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAA/////wAAAD8A////+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAA2cAAAC0AAAArAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAD8A////AAADGgAAApQAAAAEAAAABAAAAAgAAAAI/AAAAAIAAAAAAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAAAA==
+ToolBarsMovable=Disabled
+Width 1600=1051
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[PreviewSettings]
+Plugins=audiothumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,calligra_odg_thumbnail,stage_odp_thumbnail,sheets_ods_thumbnail,words_odt_thumbnail,gsthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs,kenericwmf
+
+[SettingsDialog]
+Height 900=449
+Width 1600=513
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[ViewPropertiesDialog]
+Height 900=260
+Width 1600=357
