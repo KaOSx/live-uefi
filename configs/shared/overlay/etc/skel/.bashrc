@@ -69,3 +69,8 @@ alias vi=vim
 
 # prompt
 PS1='[\u@\h \W]\$ '
+
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/share/bash/powerline.sh
