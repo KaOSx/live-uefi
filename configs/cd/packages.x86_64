@@ -199,6 +199,7 @@ kdeconnect-kde
 #wacomtablet
 user-kcm
 ktexteditorpreviewplugin
+kmarkdownwebview
 
 # locales
 #kde-l10n-ca
