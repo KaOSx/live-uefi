@@ -10,3 +10,4 @@ nonfree                  - Start using non-free (nVidia) drivers
 harddisk                 - Local boot from hard disk
 hdt                      - Run Hardware Detection Tool
 memtest                  - Run Memory Test
+memtest86                - Run advanced Memory Test
