@@ -3,10 +3,7 @@
 
 ### These should probably be present
 base  
-attr
-bash
 binutils
-syslinux
 cdrkit
 sshfs
 linux-headers
@@ -35,13 +32,10 @@ ntfs-3g
 btrfs-progs
 dosfstools
 gptfdisk
-jfsutils
 testdisk
 
 # drivers & system utilities
-alsa-lib
 alsa-oss
-alsa-utils
 lm_sensors
 fuse
 cpupower
