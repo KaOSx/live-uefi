@@ -9,5 +9,5 @@ Timeout=0
 WallpaperPlugin=org.kde.image
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/midna/contents/images/3648x2736.png
+Image=file:///usr/share/wallpapers/midna/contents/images/3600x2025.png
 
