@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20180318
+# Version: 20180419
 
 ### These should probably be present
 base  
@@ -120,7 +120,8 @@ ttf-dejavu
 terminus-font
 ttf-liberation
 wqy-microhei
-ttf-indic-otf
+###ttf-indic-otf
+lohit-fonts
 
 # additional stuff that needs xorg
 hicolor-icon-theme
@@ -168,7 +169,8 @@ python2-xlib
 ##python2-v4l2capture
 python2-pillow
 ##flattr-icons
-kaptan
+##kaptan
+croeso
 powerline
 
 # kde (everything else)
