@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=Qt;System;
+Exec=croeso
+GenericName=Croeso
+Icon=croeso
+MimeType=
+Name=Croeso
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
