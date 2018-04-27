@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20180419
+# Version: 20180428
 
 ### These should probably be present
 base  
@@ -188,13 +188,13 @@ ark
 spectacle
 yakuake
 kgpg
-#sweeper
+sweeper
 ##kdenetwork-kppp
 ##appmenu-qt5
 kdeconnect-kde
-#sddm-kcm
-#wacomtablet
-#user-kcm
+sddm-kcm
+wacomtablet
+user-kcm
 ##ktexteditorpreviewplugin part of kate
 kmarkdownwebview
 
@@ -214,7 +214,7 @@ plasma-nm
 modemmanager
 mobile-broadband-provider-info
 networkmanager-dispatcher-ntpd
-#nomad-firewall
+nomad-firewall
 ###ufw  # install ufw until kcm-ufw is ported/forked
 
 # installer + dependencies
@@ -233,33 +233,33 @@ calamares-debug
 welcome
 
 ## extragear
-#quassel
+quassel
 ##konqueror
 falkon
 bluedevil
 ##vlc
-#smplayer 
-#smtube
+smplayer 
+smtube
 ##amarok
 ##clementine
 ##cantata
 ##babe
-#elisa
-#kde-gtk-config
+elisa
+kde-gtk-config
 ##oxygen-gtk2
 isowriter
-#tomoyo-tools
-#kcp
-#base-devel
+tomoyo-tools
+kcp
+base-devel
 ##clamav
 init-live
 kdeplasma-addons
 octopi
-#pacmanlogviewer
+pacmanlogviewer
 inxi
 kscreen
 ###kmymoney
-#systemd-kcm
+systemd-kcm
 xdg-user-dirs
 ###notepad
 ##skanlite
@@ -272,31 +272,31 @@ qt5-wayland
 ##kanagram
 ##kig
 ##kup
-#seafile-client
+seafile-client
 ###dropbox
 ###webcamoid 
-#kamoso
+kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
-#keneric
-#kget
+keneric
+kget
 ###fatrat
-#kruler
-#kcharselect
+kruler
+kcharselect
 ##khangman
-#kompare
+kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-#simplescreenrecorder
-#ksshaskpass
+simplescreenrecorder
+ksshaskpass
 ##trojita
 ##choqok
-#krita
-#pepper-flash
+krita
+pepper-flash
 micro
 ##kdepim-addons
 virtualbox-guest-utils
@@ -307,44 +307,44 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-#grub2-editor
+grub2-editor
 
 # burn
-#dvd+rw-tools
-#vcdimager
-#emovix
-#k3b
+dvd+rw-tools
+vcdimager
+emovix
+k3b
 ###qisoburn
 
 # debugging
 gdb
 
 # printing
-#cups
-#gutenprint 
-#system-config-printer 
-#cups-pdf 
-#print-manager
-#hplip
-#pyqt5-python3
+cups
+gutenprint 
+system-config-printer 
+cups-pdf 
+print-manager
+hplip
+pyqt5-python3
 ##epsoneplijs
-#epson-inkjet-printer-escpr
-#samba
-#a2ps
+epson-inkjet-printer-escpr
+samba
+a2ps
 
 # office
-#calligra
-#calligra-l10n
+calligra
+calligra-l10n
 
 ## games
-#kpat
+kpat
 ##bovo
 ##kbounce
 
 #IM
-#telepathy-idle
-#telepathy-haze
-#telepathy-gabble
-#telepathy-logger
-#telepathy-salut
-#kde-telepathy
+telepathy-idle
+telepathy-haze
+telepathy-gabble
+telepathy-logger
+telepathy-salut
+kde-telepathy
