@@ -141,7 +141,7 @@ make_efiboot() {
     if [[ ! -e ${work_dir}/build.${FUNCNAME} ]]; then
         echo -e -n "$_r >$_W Prepare ${install_dir}/iso/EFI \n $_n"
         mkdir -p ${work_dir}/iso/EFI/kiso
-        truncate -s 31M ${work_dir}/iso/EFI/kiso/kdeosiso.img
+        truncate -s 64M ${work_dir}/iso/EFI/kiso/kdeosiso.img
         mkfs.vfat -n KAOS_EFI ${work_dir}/iso/EFI/kiso/kdeosiso.img
 
         mkdir -p ${work_dir}/efiboot
