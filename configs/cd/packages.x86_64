@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20180824
+# Version: 20180829
 
 ### These should probably be present
 base  
@@ -213,7 +213,7 @@ plasma-nm
 modemmanager
 mobile-broadband-provider-info
 networkmanager-dispatcher-ntpd
-#nomad-firewall
+nomad-firewall
 ###ufw  # install ufw until kcm-ufw is ported/forked
 
 # installer + dependencies
@@ -283,7 +283,7 @@ audiothumbs
 keneric
 kget
 ###fatrat
-kruler
+##kruler
 kcharselect
 ##khangman
 kompare
