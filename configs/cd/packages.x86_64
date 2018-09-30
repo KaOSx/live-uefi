@@ -187,7 +187,7 @@ okular
 ark
 spectacle
 yakuake
-kgpg
+#kgpg
 #sweeper
 ##kdenetwork-kppp
 ##appmenu-qt5
@@ -247,7 +247,7 @@ bluedevil
 #kde-gtk-config
 ##oxygen-gtk2
 isowriter
-tomoyo-tools
+#tomoyo-tools
 #kcp
 #base-devel
 ##clamav
@@ -281,7 +281,7 @@ kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 keneric
-kget
+#kget
 ###fatrat
 ##kruler
 #kcharselect
