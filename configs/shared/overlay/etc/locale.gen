@@ -264,8 +264,6 @@ it_IT.UTF-8 UTF-8
 it_IT ISO-8859-1  
 it_IT@euro ISO-8859-15  
 iu_CA UTF-8  
-iw_IL.UTF-8 UTF-8  
-iw_IL ISO-8859-8  
 ja_JP.EUC-JP EUC-JP  
 ja_JP.UTF-8 UTF-8  
 ka_GE.UTF-8 UTF-8  
@@ -329,7 +327,6 @@ om_KE ISO-8859-1
 or_IN UTF-8  
 pa_IN UTF-8  
 pa_PK UTF-8  
-pap_AN UTF-8  
 pl_PL.UTF-8 UTF-8  
 pl_PL ISO-8859-2  
 pt_BR.UTF-8 UTF-8  
