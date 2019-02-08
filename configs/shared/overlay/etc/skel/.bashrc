@@ -33,7 +33,7 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias vp='vim PKGBUILD'
 alias vs='vim SPLITBUILD'
-alias upd='mirror-check && sudo pacman -Syu'
+alias upd='mirror-check --fast && sudo pacman -Syu'
 alias dvdburn='growisofs -Z /dev/sr0 -R -J'
 alias :pf='pkgfile -vri'
 
