@@ -57,9 +57,6 @@ plugin=org.kde.plasma.networkmanagement
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
 
-[Containments][52][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/midna/contents/images/3600x2025.png
-
 [Containments][43]
 activityId=
 formfactor=3

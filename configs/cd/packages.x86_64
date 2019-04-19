@@ -41,7 +41,7 @@ fuse
 cpupower
 iasl
 
-# generally useful tools that dont require X
+# generally useful tools that don't require X
 bash-completion
 openssh
 nmap

@@ -51,8 +51,3 @@ inactiveBackground=52,73,94
 inactiveBlend=245,245,245
 inactiveForeground=245,245,245
 
-[Wallpaper]
-defaultWallpaperTheme=midna
-defaultFileSuffix=.png
-defaultWidth=3600
-defaultHeight=2025
