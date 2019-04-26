@@ -1,4 +1,4 @@
-[ActionPlugins][0]
+﻿[ActionPlugins][0]
 MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
@@ -66,12 +66,20 @@ location=6
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][43][Applets][31]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][43][Applets][31][Configuration][General]
+noteId=49e2c3e7-b63e-4236-b676-34ede62d40
+
 [Containments][43][Applets][44]
 immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][43][Applets][44][Configuration][General]
 favoriteApps=preferred://browser,org.kde.konsole.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
+favoritesPortedToKAstats=true
 
 [Containments][43][Applets][44][Configuration][Shortcuts]
 global=Alt+F1
@@ -86,10 +94,6 @@ plugin=org.kde.plasma.lock_logout
 [Containments][43][Applets][46]
 immutability=1
 plugin=org.kde.plasma.calculator
-
-[Containments][43][Applets][31]
-immutability=1
-plugin=org.kde.plasma.notes
 
 [Containments][43][Applets][47]
 immutability=1
@@ -149,6 +153,9 @@ plugin=org.kde.plasma.notifications
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][50][Applets][56][Configuration]
+PreloadWeight=42
+
 [Containments][50][Applets][57]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
@@ -158,6 +165,16 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][50][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
-knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
+extraItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator
+knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator
 shownItems=octopi-notifier
+
+[Containments][52]
+activityId=deea934d-3865-40bf-b707-99f93d2198e3
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
