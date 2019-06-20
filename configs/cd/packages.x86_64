@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20190424
+# Version: 20190620
 
 ### These should probably be present
 base  
@@ -148,10 +148,10 @@ kdialog
 kfind
 keditbookmarks
 systemsettings
-oxygen
+#oxygen
 breeze
-breeze-gtk
-qtcurve-gtk
+#breeze-gtk
+#qtcurve-gtk
 ###sni-qt
 sddm
 kate
@@ -161,8 +161,8 @@ plasma-pa
 
 # themes 
 midna-themes
-plasma-workspace-wallpapers
-kaos-wallpapers
+#plasma-workspace-wallpapers
+#kaos-wallpapers
 grub-theme-midna
 python2-xlib
 ##python2-v4l2capture
@@ -181,19 +181,19 @@ kwallet-pam
 milou
 partitionmanager
 partitionmanager-debug
-gwenview
+#gwenview
 okular
 ark
 spectacle
 yakuake
 kgpg
-sweeper
+#sweeper
 ##kdenetwork-kppp
 ##appmenu-qt5
-kdeconnect-kde
-sddm-kcm
+#kdeconnect-kde
+#sddm-kcm
 wacomtablet
-user-kcm
+#user-kcm
 kmarkdownwebview
 
 # locales
@@ -212,7 +212,7 @@ plasma-nm
 modemmanager
 mobile-broadband-provider-info
 networkmanager-dispatcher-ntpd
-nomad-firewall
+#nomad-firewall
 ###ufw  # install ufw until kcm-ufw is ported/forked
 
 # installer + dependencies
@@ -231,33 +231,33 @@ calamares-debug
 welcome
 
 ## extragear
-quassel
+#quassel
 ##konqueror
 falkon
 bluedevil
 ##vlc
-smplayer 
-smtube
+#smplayer 
+#smtube
 ##amarok
 ##clementine
 ##cantata
 ##babe
-elisa
-kde-gtk-config
+#elisa
+#kde-gtk-config
 ##oxygen-gtk2
 isowriter
 tomoyo-tools
-kcp
-base-devel
+#kcp
+#base-devel
 ##clamav
 init-live
 kdeplasma-addons
 octopi
-pacmanlogviewer
+#pacmanlogviewer
 inxi
 kscreen
 ###kmymoney
-systemd-kcm
+#systemd-kcm
 xdg-user-dirs
 ###notepad
 ##skanlite
@@ -270,17 +270,17 @@ qt5-wayland
 ##kanagram
 ##kig
 ##kup
-seafile-client
+#seafile-client
 ###dropbox
 ###webcamoid 
-kamoso
+#kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 keneric
-kget
+#kget
 ###fatrat
 ##kruler
 kcharselect
@@ -289,12 +289,12 @@ kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-simplescreenrecorder
+#simplescreenrecorder
 ksshaskpass
 ##trojita
 ##choqok
-krita
-pepper-flash
+#krita
+#pepper-flash
 micro
 ##kdepim-addons
 virtualbox-guest-utils
@@ -305,35 +305,35 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-grub2-editor
+#grub2-editor
 
 # burn
-dvd+rw-tools
-vcdimager
-emovix
-k3b
+#dvd+rw-tools
+#vcdimager
+#emovix
+#k3b
 ###qisoburn
 
 # debugging
 gdb
 
 # printing
-cups
-gutenprint 
-system-config-printer 
-cups-pdf 
-print-manager
-hplip
-pyqt5-python3
+#cups
+#gutenprint 
+#system-config-printer 
+#cups-pdf 
+#print-manager
+#hplip
+#pyqt5-python3
 ##epsoneplijs
-epson-inkjet-printer-escpr
-samba
-a2ps
+#epson-inkjet-printer-escpr
+#samba
+#a2ps
 
 # office
 ##calligra
 ##calligra-l10n
-libreoffice
+#libreoffice
 
 ## games
 kpat
@@ -341,9 +341,9 @@ kpat
 ##kbounce
 
 #IM
-telepathy-idle
-telepathy-haze
-telepathy-gabble
-telepathy-logger
-telepathy-salut
-kde-telepathy
+#telepathy-idle
+#telepathy-haze
+#telepathy-gabble
+#telepathy-logger
+#telepathy-salut
+#kde-telepathy
