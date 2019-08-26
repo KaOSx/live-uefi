@@ -79,7 +79,6 @@ plugin=org.kde.plasma.kicker
 
 [Containments][43][Applets][44][Configuration][General]
 favoriteApps=preferred://browser,org.kde.konsole.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
-favoritesPortedToKAstats=true
 
 [Containments][43][Applets][44][Configuration][Shortcuts]
 global=Alt+F1
