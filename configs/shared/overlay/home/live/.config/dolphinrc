@@ -31,7 +31,7 @@ ToolBarsMovable=Disabled
 Width 1600=1145
 
 [PlacesPanel]
-IconSize=32
+IconSize=22
 
 [PreviewSettings]
 Plugins=audiothumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,calligra_odg_thumbnail,stage_odp_thumbnail,sheets_ods_thumbnail,words_odt_thumbnail,gsthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs,kenericwmf
