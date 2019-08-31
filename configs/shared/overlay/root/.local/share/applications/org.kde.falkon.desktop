@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Falkon
+Type=Application
+Icon=falkon
+Categories=Network;WebBrowser;
+Comment=A fast and secure web browser
+GenericName=Web Browser
+Exec=falkon --no-sandbox %u
+StartupWMClass=Falkon
+MimeType=text/html;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;application/x-mimearchive;
+Actions=NewTab;NewWindow;PrivateBrowsing;
+
+[Desktop Action NewTab]
+Name=Open new tab
+Exec=falkon --new-tab
+
+[Desktop Action NewWindow]
+Name=Open new window
+Exec=falkon --new-window
+
+[Desktop Action PrivateBrowsing]
+Name=Start private browsing
+Exec=falkon --private-browsing
