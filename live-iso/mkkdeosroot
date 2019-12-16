@@ -154,7 +154,7 @@ else
     if [ $# -ne 0 ]; then
 	op='-Sy'
 	if [ "$FORCE" = "y" ]; then
-            pacargs="${pacargs} --force"
+            pacargs="${pacargs}"
 	fi
 	pacman ${op} ${pacargs} $@ || chroot_umount_and_exit
     fi

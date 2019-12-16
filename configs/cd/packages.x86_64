@@ -1,12 +1,67 @@
 # KaOS-Live Packages file
-# Version: 20191023
+# Version: 20191216
 
 ### These should probably be present
-base  
+#base 
+attr
+bash
+bzip2
+coreutils
+cryptsetup
+device-mapper
+dhcpcd
+diffutils
+e2fsprogs
+file
+filesystem
+findutils
+gawk
+gcc-libs
+gettext
+glibc
+grep
+gzip
+iputils
+jfsutils
+less
+libpipeline
+licenses
+linux-next
+logrotate
+lvm2
+man-pages
+mdadm
+nano
+net-tools
+pacman
+pacman-mirrorlist
+pciutils
+pcmciautils
+perl
+ppp
+procps-ng
+psmisc
+reiserfsprogs
+rp-pppoe
+s-nail
+sed
+shadow
+sysfsutils
+systemd
+tar
+texinfo
+traceroute
+usbutils
+util-linux
+vi
+wget
+which
+wpa_supplicant
+xfsprogs
 binutils
 cdrkit
 sshfs
-linux-headers
+linux-next-headers
 squashfs-tools
 lsb-release
 
@@ -98,13 +153,12 @@ xorg-fonts-misc
 # xorg video drivers
 xf86-video-amdgpu
 xf86-video-ati
-xf86-video-intel
+##xf86-video-intel
 ##xf86-video-nouveau
 xf86-video-vesa
 xf86-video-vmware
 
 # xorg input drivers
-xorg-input-drivers
 xf86-input-synaptics
 xf86-input-wacom
 
@@ -146,8 +200,8 @@ keditbookmarks
 systemsettings
 #oxygen
 breeze
-breeze-gtk
-qtcurve-gtk
+#breeze-gtk
+#qtcurve-gtk
 sddm
 kate
 konsole
@@ -156,8 +210,8 @@ plasma-pa
 
 # themes 
 midna-themes
-plasma-workspace-wallpapers
-kaos-wallpapers
+#plasma-workspace-wallpapers
+#kaos-wallpapers
 grub-theme-midna
 ##flattr-icons
 croeso
@@ -172,7 +226,7 @@ kwallet-pam
 milou
 partitionmanager
 partitionmanager-debug
-gwenview
+#gwenview
 okular
 ark
 spectacle
@@ -180,8 +234,8 @@ yakuake
 kgpg
 sweeper
 ##appmenu-qt5
-kdeconnect-kde
-sddm-kcm
+#kdeconnect-kde
+#sddm-kcm
 wacomtablet
 user-kcm
 kmarkdownwebview
@@ -220,31 +274,31 @@ calamares-debug
 welcome
 
 ## extragear
-quassel
+#quassel
 ##konqueror
 falkon
 bluedevil
 ##vlc
-smplayer 
-smtube
+#smplayer 
+#smtube
 ##clementine
 ##cantata
-elisa
-kde-gtk-config
+#elisa
+#kde-gtk-config
 ##oxygen-gtk2
 isowriter
-tomoyo-tools
-kcp
-base-devel
+#tomoyo-tools
+#kcp
+#base-devel
 ##clamav
 init-live
 kdeplasma-addons
 octopi
-pacmanlogviewer
+#pacmanlogviewer
 inxi
 kscreen
 ###kmymoney
-systemd-kcm
+#systemd-kcm
 xdg-user-dirs
 ##skanlite
 ##okteta
@@ -266,7 +320,7 @@ kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 keneric
-kget
+#kget
 ##kruler
 kcharselect
 ##khangman
@@ -274,15 +328,15 @@ kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-simplescreenrecorder
+#simplescreenrecorder
 ksshaskpass
 ##trojita
 ##choqok
-krita
-pepper-flash
+#krita
+#pepper-flash
 micro
 ##kdepim-addons
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 ##kodi
 ##blender
@@ -290,45 +344,45 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-grub2-editor
+#grub2-editor
 
 # burn
-dvd+rw-tools
-vcdimager
-emovix
-k3b
+#dvd+rw-tools
+#vcdimager
+#emovix
+#k3b
 ###qisoburn
 
 # debugging
 gdb
 
 # printing
-cups
-gutenprint 
-system-config-printer 
-cups-pdf 
-print-manager
-hplip
-pyqt5-python3
+#cups
+#gutenprint 
+#system-config-printer 
+#cups-pdf 
+#print-manager
+#hplip
+#pyqt5-python3
 ##epsoneplijs
-epson-inkjet-printer-escpr
-samba
-a2ps
+#epson-inkjet-printer-escpr
+#samba
+#a2ps
 
 # office
 ##calligra
 ##calligra-l10n
-libreoffice
+#libreoffice
 
 ## games
-kpat
+#kpat
 ##bovo
 ##kbounce
 
 #IM
-telepathy-idle
-telepathy-haze
-telepathy-gabble
-telepathy-logger
-telepathy-salut
-kde-telepathy
+#telepathy-idle
+#telepathy-haze
+#telepathy-gabble
+#telepathy-logger
+#telepathy-salut
+#kde-telepathy
