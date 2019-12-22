@@ -26,7 +26,7 @@ jfsutils
 less
 libpipeline
 licenses
-linux-next
+linux
 logrotate
 lvm2
 man-pages
@@ -61,7 +61,7 @@ xfsprogs
 binutils
 cdrkit
 sshfs
-linux-next-headers
+linux-headers
 squashfs-tools
 lsb-release
 
@@ -336,7 +336,7 @@ ksshaskpass
 #pepper-flash
 micro
 ##kdepim-addons
-#virtualbox-guest-utils
+virtualbox-guest-utils
 
 ##kodi
 ##blender
