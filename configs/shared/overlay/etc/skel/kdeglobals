@@ -22,7 +22,7 @@ LookAndFeelPackage=org.kde.midna.desktop
 ShowDeleteCommand=true
 SingleClick=true
 contrast=4
-widgetStyle=qtcurve
+widgetStyle=kvantum
 
 [KFileDialog Settings]
 Automatically select filename extension=true

@@ -2,9 +2,14 @@
 # file format: repo:package
 
 #main:nvidia-utils*
-#main:nvidia-3*
-#main:nvidia-304xx-utils*
-#main:nvidia-304xx-3*
+#build:nvidia-1:4*
+#main:nvidia-390xx-utils*
+#build:nvidia-390xx-3*
+#main:nvidia-340xx-utils*
+#build:nvidia-340xx-3*
+#main:prime*
+#main:libspnav*
+#apps:calligra-3*
 
 
 
