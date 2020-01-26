@@ -5,7 +5,7 @@ QUIET="y"
 FORCE="n"
 PACCONFIG="/etc/pacman.conf"
 export LABEL="KAOS_$(date +%Y%m)"
-PUBLISHER="KaOS <http://kaosx.us>"
+PUBLISHER="KaOS <https://kaosx.us>"
 APPLICATION="KaOS Live/Rescue CD"
 COMPRESSION="xz"
 CREATE_DEFAULT="n"
@@ -25,7 +25,7 @@ usage ()
     echo "    -P <publisher>   Set a publisher for the disk"
     echo "    -A <application> Set an application name for the disk"
     echo "    -a <arch>        Set an architecture for the disk (example: i686)"
-    echo "    -c <compressor>  Set SquashFS compression type: gzip, xz or lzo. Default $COMPRESSION"
+    echo "    -c <compressor>  Set SquashFS compression type: gzip, xz, lzo or zstd. Default $COMPRESSION"
     echo "                     NOTES:"
     echo "                            xz: needs Linux >= 2.6.35 - you can add '-x' for better compression"
     echo "                            lzo:  needs Linux >= 2.6.36"
@@ -56,14 +56,14 @@ while getopts 'p:C:L:P:A:a:c:D:dfvhx' arg; do
         D) INSTALL_DIR="${OPTARG}" ;;
         d) CREATE_DEFAULT="y" ;;
         f) FORCE="y" ;;
-        x) HIGHCOMP=" -b 256K -Xbcj x86" ;;
+        x) HIGHCOMP="${OPTARG}" ;;
         v) QUIET="n" ;;
         h|?) usage 0 ;;
         *) echo "invalid argument '${arg}'"; usage 1 ;;
     esac
 done
 
-if [ "${COMPRESSION}" != "xz" ]; then
+if [ "${COMPRESSION}" != "xz" ] && [ "${COMPRESSION}" != "zstd" ]; then
     HIGHCOMP=""
 fi
 

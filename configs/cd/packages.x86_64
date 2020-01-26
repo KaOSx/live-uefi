@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20191228
+# Version: 20200126
 
 ### These should probably be present
 #base 
@@ -111,9 +111,9 @@ zip
 
 # wireless drivers and tools
 wireless_tools
-wireless-regdb
+##wireless-regdb
 dnsutils
-crda
+##crda
 usb_modeswitch
 vpnc
 openvpn
@@ -200,8 +200,8 @@ keditbookmarks
 systemsettings
 #oxygen
 breeze
-breeze-gtk
-qtcurve-gtk
+#breeze-gtk
+#qtcurve-gtk
 sddm
 kate
 konsole
@@ -210,9 +210,9 @@ plasma-pa
 
 # themes 
 midna-themes
-plasma-workspace-wallpapers
-kaos-wallpapers
-grub-theme-midna
+#plasma-workspace-wallpapers
+#kaos-wallpapers
+#grub-theme-midna
 ##flattr-icons
 croeso
 powerline
@@ -226,18 +226,18 @@ kwallet-pam
 milou
 partitionmanager
 partitionmanager-debug
-gwenview
+#gwenview
 okular
 ark
 spectacle
 yakuake
 kgpg
-sweeper
+#sweeper
 ##appmenu-qt5
 kdeconnect-kde
-sddm-kcm
+#sddm-kcm
 wacomtablet
-user-kcm
+#user-kcm
 kmarkdownwebview
 
 # locales
@@ -256,7 +256,7 @@ plasma-nm
 modemmanager
 mobile-broadband-provider-info
 networkmanager-dispatcher-ntpd
-nomad-firewall
+#nomad-firewall
 ###ufw  # install ufw until kcm-ufw is ported/forked
 
 # installer + dependencies
@@ -274,21 +274,21 @@ calamares-debug
 welcome
 
 ## extragear
-quassel
+#quassel
 ##konqueror
 falkon
 bluedevil
 ##vlc
-smplayer 
-smtube
+#smplayer 
+#smtube
 ##clementine
 ##cantata
-elisa
+#elisa
 kde-gtk-config
 ##oxygen-gtk2
 isowriter
-tomoyo-tools
-kcp
+#tomoyo-tools
+#kcp
 #base-devel
 ##clamav
 init-live
@@ -298,7 +298,7 @@ pacmanlogviewer
 inxi
 kscreen
 ###kmymoney
-systemd-kcm
+#systemd-kcm
 xdg-user-dirs
 ##skanlite
 ##okteta
@@ -310,17 +310,17 @@ qt5-wayland
 ##kanagram
 ##kig
 ##kup
-seafile-client
+#seafile-client
 ###dropbox
 ###webcamoid 
-kamoso
+#kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 keneric
-kget
+#kget
 ##kruler
 kcharselect
 ##khangman
@@ -328,12 +328,12 @@ kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-simplescreenrecorder
+#simplescreenrecorder
 ksshaskpass
 ##trojita
 ##choqok
-krita
-pepper-flash
+#krita
+#pepper-flash
 micro
 ##kdepim-addons
 virtualbox-guest-utils
@@ -344,26 +344,26 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-grub2-editor
+#grub2-editor
 
 # burn
-dvd+rw-tools
-vcdimager
-emovix
-k3b
+#dvd+rw-tools
+#vcdimager
+#emovix
+#k3b
 ###qisoburn
 
 # debugging
 gdb
 
 # printing
-cups
-gutenprint 
-system-config-printer 
-cups-pdf 
-print-manager
-hplip
-pyqt5-python3
+#cups
+#gutenprint 
+#system-config-printer 
+#cups-pdf 
+#print-manager
+#hplip
+#pyqt5-python3
 ##epsoneplijs
 epson-inkjet-printer-escpr
 samba
@@ -372,17 +372,17 @@ a2ps
 # office
 ##calligra
 ##calligra-l10n
-libreoffice
+#libreoffice
 
 ## games
-kpat
+#kpat
 ##bovo
 ##kbounce
 
 #IM
-telepathy-idle
-telepathy-haze
-telepathy-gabble
-telepathy-logger
-telepathy-salut
-kde-telepathy
+#telepathy-idle
+#telepathy-haze
+#telepathy-gabble
+#telepathy-logger
+#telepathy-salut
+#kde-telepathy
