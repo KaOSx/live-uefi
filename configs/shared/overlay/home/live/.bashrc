@@ -30,7 +30,6 @@ alias la='ls -la --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --colo
 alias grep='grep --color=tty -d skip'
 alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
 alias vp='vim PKGBUILD'
 alias vs='vim SPLITBUILD'
 alias upd='mirror-check --fast && sudo pacman -Syu'
