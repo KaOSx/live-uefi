@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20200814
+# Version: 20200908
 
 ### These should probably be present
 #base 
@@ -241,6 +241,7 @@ kdeconnect-kde
 #wacomtablet
 #user-kcm
 kmarkdownwebview
+#dolphin-plugins
 
 # locales
 #kde-l10n-ca
@@ -257,7 +258,8 @@ kmarkdownwebview
 plasma-nm
 modemmanager
 mobile-broadband-provider-info
-networkmanager-dispatcher-ntpd
+ntp
+###networkmanager-dispatcher-ntpd
 nomad-firewall
 
 # installer + dependencies
