@@ -159,7 +159,7 @@ make_efiboot() {
 
         mkdir -p ${work_dir}/efiboot/loader/entries
         cp boot-files/loader/loader.conf ${work_dir}/efiboot/loader/
-        cp boot-files/loader/splash.bmp ${work_dir}/efiboot/loader/
+        #cp boot-files/loader/splash.bmp ${work_dir}/efiboot/loader/
         cp boot-files/loader/entries/uefi-shell-v2-x86_64.conf ${work_dir}/efiboot/loader/entries/
         cp boot-files/loader/entries/uefi-shell-v1-x86_64.conf ${work_dir}/efiboot/loader/entries/
 
