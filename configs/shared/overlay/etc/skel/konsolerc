@@ -5,5 +5,12 @@ DefaultProfile=Shell.profile
 Favorites=Shell.profile
 
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAHDAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
+Virtual Height 1440x900=480
+Virtual Width 1440x900=950
+Virtual XPosition 1440x900=420
+Virtual YPosition 1440x900=264
+
+[TabBar]
+NewTabButton=true
+TabBarVisibililty=AlwayShowTabBar
