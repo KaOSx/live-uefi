@@ -106,12 +106,16 @@ SystrayContainmentId=50
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][43][Applets][59]
+immutability=1
+plugin=org.kde.plasma.kickoff
+
 [Containments][43][ConfigDialog]
 DialogHeight=768
 DialogWidth=175
 
 [Containments][43][General]
-AppletOrder=44;45;31;46;47;48;49;51
+AppletOrder=59;45;31;46;47;48;49;51
 
 [Containments][50]
 activityId=
