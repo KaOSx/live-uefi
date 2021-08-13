@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20210727
+# Version: 20210813
 
 ### These should probably be present
 #base 
@@ -200,9 +200,8 @@ kdialog
 kfind
 keditbookmarks
 systemsettings
-##oxygen
 breeze
-#breeze-gtk
+breeze-gtk
 #qtcurve-gtk
 sddm
 kate
@@ -212,8 +211,8 @@ plasma-pa
 
 # themes 
 midna-themes
-#plasma-workspace-wallpapers
-#kaos-wallpapers
+plasma-workspace-wallpapers
+kaos-wallpapers
 grub-theme-midna
 ##flattr-icons
 croeso
@@ -231,13 +230,13 @@ kwallet-pam
 milou
 partitionmanager
 partitionmanager-debug
-#gwenview
+gwenview
 okular
 ark
 spectacle
 yakuake
 kgpg
-#sweeper
+sweeper
 ##appmenu-qt5
 kdeconnect-kde
 sddm-kcm
@@ -263,7 +262,7 @@ modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-#plasma-firewall
+plasma-firewall
 
 # installer + dependencies
 netctl   
@@ -280,23 +279,23 @@ calamares-debug
 welcome
 
 ## extragear
-#quassel
+quassel
 ##konqueror
 falkon
 pdfreader
 bluedevil
 ##vlc
-#smplayer 
-#smtube
+smplayer 
+smtube
 ##clementine
 ##cantata
-#elisa
-#kde-gtk-config
+elisa
+kde-gtk-config
 ##oxygen-gtk2
 isowriter
-#tomoyo-tools
-#kcp
-#base-devel
+tomoyo-tools
+kcp
+base-devel
 ##clamav
 init-live
 kdeplasma-addons
@@ -306,7 +305,7 @@ inxi
 kscreen
 ###kmymoney
 ###systemd-kcm
-#stacer
+stacer
 xdg-user-dirs
 ##skanlite
 ##okteta
@@ -318,17 +317,17 @@ qt5-wayland
 ##kanagram
 ##kig
 ##kup
-#seafile-client
+seafile-client
 ###dropbox
 ###webcamoid 
-#kamoso
+kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
 kdesdk-thumbnailers
 ffmpegthumbs
 audiothumbs
 ##keneric
-#kget
+kget
 ##kruler
 kcharselect
 ##khangman
@@ -336,7 +335,7 @@ kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
-#simplescreenrecorder
+simplescreenrecorder
 ksshaskpass
 ##trojita
 ##choqok
@@ -352,45 +351,45 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-#grub2-editor
+grub2-editor
 
 # burn
-#dvd+rw-tools
-#vcdimager
-#emovix
-#k3b
+dvd+rw-tools
+vcdimager
+emovix
+k3b
 ###qisoburn
 
 # debugging
 gdb
 
 # printing
-#cups
-#gutenprint 
-#system-config-printer 
-#cups-pdf 
-#print-manager
-#hplip
-#pyqt5-python3
+cups
+gutenprint 
+system-config-printer 
+cups-pdf 
+print-manager
+hplip
+pyqt5-python3
 ##epsoneplijs
-#epson-inkjet-printer-escpr
-#samba
-#a2ps
+epson-inkjet-printer-escpr
+samba
+a2ps
 
 # office
 ##calligra
 ##calligra-l10n
-#libreoffice
+libreoffice
 
 ## games
-#kpat
+kpat
 ##bovo
 ##kbounce
 
 #IM
-#telepathy-idle
-#telepathy-haze
-#telepathy-gabble
-#telepathy-logger
-#telepathy-salut
-#kde-telepathy
+telepathy-idle
+telepathy-haze
+telepathy-gabble
+telepathy-logger
+telepathy-salut
+kde-telepathy
