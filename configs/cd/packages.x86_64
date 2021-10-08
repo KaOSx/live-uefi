@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20210924
+# Version: 20211008
 
 ### These should probably be present
 #base 
@@ -213,7 +213,7 @@ plasma-pa
 midna-themes
 #plasma-workspace-wallpapers
 #kaos-wallpapers
-#grub-theme-midna
+grub-theme-midna
 refind-theme-midna
 ##flattr-icons
 croeso
