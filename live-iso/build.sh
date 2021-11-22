@@ -90,12 +90,13 @@ make_boot() {
         mount -t proc none ${work_dir}/boot-image/proc
         mount -t sysfs none ${work_dir}/boot-image/sys
         mount -o bind /dev ${work_dir}/boot-image/dev
-        cp /usr/lib/initcpio/hooks/kdeos* ${work_dir}/boot-image/usr/lib/initcpio/hooks
-        cp /usr/lib/initcpio/install/kdeos* ${work_dir}/boot-image/usr/lib/initcpio/install
-        cp mkinitcpio.conf ${work_dir}/boot-image/etc/mkinitcpio.conf
+        #cp /usr/lib/initcpio/hooks/kdeos* ${work_dir}/boot-image/usr/lib/initcpio/hooks
+        #cp /usr/lib/initcpio/install/kdeos* ${work_dir}/boot-image/usr/lib/initcpio/install
+        #cp mkinitcpio.conf ${work_dir}/boot-image/etc/mkinitcpio.conf
+        cp dracut-live.conf ${work_dir}/boot-image/etc/dracut.conf.d/dracut-live.conf
         _kernver=`cat ${work_dir}/boot-image/lib/modules/*/version`
         #chroot ${work_dir}/boot-image /usr/bin/mkinitcpio -k ${_kernver} -c /etc/mkinitcpio.conf -g /boot/kdeosiso.img
-        chroot ${work_dir}/boot-image dracut -f -H --no-hostonly-cmdline --zstd --no-early-microcode /boot/kdeosiso.img --kver ${_kernver}
+        chroot ${work_dir}/boot-image dracut -f --no-early-microcode -c /etc/dracut.conf.d/dracut-live.conf /boot/kdeosiso.img --kver ${_kernver}
         mv ${work_dir}/boot-image/boot/kdeosiso.img ${work_dir}/iso/${install_dir}/boot/${arch}/kdeosiso.img
         umount -f ${work_dir}/boot-image/proc ${work_dir}/boot-image/sys ${work_dir}/boot-image/dev ${work_dir}/boot-image
         rm -R ${work_dir}/boot-image
