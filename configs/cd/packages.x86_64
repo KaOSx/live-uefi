@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20211011
+# Version: 20211203
 
 ### These should probably be present
 #base 
@@ -59,10 +59,11 @@ wget
 which
 wpa_supplicant
 xfsprogs
-zfs-kmod-next
+#zfs-kmod-next
 binutils
 cdrkit
 sshfs
+#linux-headers
 linux-next-headers
 squashfs-tools
 lsb-release
