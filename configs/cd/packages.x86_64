@@ -26,7 +26,7 @@ jfsutils
 less
 libpipeline
 licenses
-linux
+linux-next
 #dracut
 logrotate
 lvm2
@@ -63,8 +63,8 @@ xfsprogs
 binutils
 cdrkit
 sshfs
-linux-headers
-#linux-next-headers
+#linux-headers
+linux-next-headers
 squashfs-tools
 lsb-release
 
