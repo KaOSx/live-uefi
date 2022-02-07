@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20220205
+# Version: 20220207
 
 ### These should probably be present
 #base 
@@ -57,7 +57,7 @@ util-linux
 vi
 wget
 which
-##wpa_supplicant
+wpa_supplicant
 xfsprogs
 #zfs-kmod-next
 binutils
