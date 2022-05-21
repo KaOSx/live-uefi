@@ -66,7 +66,7 @@ location=6
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][43][Applets][44][Configuration][Shortcuts]
+[Containments][43][Applets][59][Configuration][Shortcuts]
 global=Alt+F1
 
 [Containments][43][Applets][45]
