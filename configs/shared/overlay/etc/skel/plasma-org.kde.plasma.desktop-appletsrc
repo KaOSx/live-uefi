@@ -66,9 +66,6 @@ location=6
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][43][Applets][59][Configuration][Shortcuts]
-global=Alt+F1
-
 [Containments][43][Applets][45]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -102,10 +99,6 @@ SystrayContainmentId=50
 [Containments][43][Applets][51]
 immutability=1
 plugin=org.kde.plasma.digitalclock
-
-[Containments][43][Applets][59]
-immutability=1
-plugin=org.kde.plasma.kickoff
 
 [Containments][43][ConfigDialog]
 DialogHeight=768
