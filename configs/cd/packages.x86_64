@@ -246,7 +246,7 @@ kdeconnect-kde
 #sddm-kcm
 wacomtablet
 ###user-kcm replaced by plasma-desktop
-kmarkdownwebview
+markdownpart
 dolphin-plugins
 power-profiles-daemon
 
