@@ -1,20 +1,32 @@
 ﻿[ActionPlugins][0]
-MidButton;NoModifier=org.kde.paste
+MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_display_settings=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+
 [ActionPlugins][1]
-MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
 [ActionPlugins][129]
-MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
-
-[Containments][17][General]
-pressToMoveHelp=false
-showToolbox=false
 
 [Containments][22]
 activityId=
@@ -72,9 +84,6 @@ plugin=org.kde.plasma.notes
 
 [Containments][43][Applets][31][Configuration][General]
 noteId=49e2c3e7-b63e-4236-b676-34ede62d40
-
-[Containments][43][Applets][59][Configuration][Shortcuts]
-global=Alt+F1
 
 [Containments][43][Applets][45]
 immutability=1
