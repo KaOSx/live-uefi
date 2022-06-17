@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20220520
+# Version: 20220617
 
 ### These should probably be present
 #base 
@@ -267,7 +267,7 @@ modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-plasma-firewall
+#plasma-firewall
 
 # installer + dependencies
 netctl   

@@ -1,5 +1,8 @@
-[PlasmaViews][Panel 43][Defaults]
+[PlasmaViews][Panel 2][Defaults]
 thickness=44
 
+[PlasmaViews][Panel 2][Vertical]
+thickness=44
 
-
+[PlasmaViews][Panel 43][Defaults]
+thickness=44
