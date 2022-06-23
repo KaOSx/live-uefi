@@ -119,7 +119,7 @@ widgetStyle=Breeze
 Theme=midna
 
 [KDE]
-ColorScheme=Breeze
+ColorScheme=Midna
 LookAndFeelPackage=org.kde.midna.desktop
 ShowDeleteCommand=true
 contrast=7
