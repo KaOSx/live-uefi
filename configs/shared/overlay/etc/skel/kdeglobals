@@ -2,8 +2,8 @@
 ColorScheme=Midna
 Name=Midna
 XftAntialias=true
-XftHintStyle=hintmedium
-XftSubPixel=none
+XftHintStyle=hintslight
+XftSubPixel=rgb
 desktopFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 fixed=DejaVu Sans Mono,9,-1,5,50,0,0,0,0,0
 font=Noto Sans,10,-1,5,50,0,0,0,0,0
@@ -12,6 +12,7 @@ shadeSortColumn=true
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
 taskbarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+widgetStyle=kvantum
 
 [Icons]
 Theme=midna
@@ -22,7 +23,6 @@ LookAndFeelPackage=org.kde.midna.desktop
 ShowDeleteCommand=true
 SingleClick=true
 contrast=4
-widgetStyle=kvantum
 
 [KFileDialog Settings]
 Automatically select filename extension=true
@@ -51,8 +51,3 @@ inactiveBackground=52,73,94
 inactiveBlend=245,245,245
 inactiveForeground=245,245,245
 
-[Wallpaper]
-defaultWallpaperTheme=midna
-defaultFileSuffix=.png
-defaultWidth=3600
-defaultHeight=2025

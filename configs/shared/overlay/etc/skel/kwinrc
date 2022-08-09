@@ -6,10 +6,6 @@ Number=2
 Rows=2
 
 [Plugins]
-cubeslideEnabled=false
-desktopchangeosdEnabled=false
-kwin4_effect_fadedesktopEnabled=false
-slideEnabled=true
 blurEnabled=false
 
 [Script-desktopchangeosd]
@@ -24,4 +20,3 @@ BorderSize=Normal
 ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.breeze
