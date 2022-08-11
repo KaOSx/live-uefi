@@ -42,12 +42,6 @@ noteId=2e346c6b-de66-4565-8ab2-8bd79556de
 immutability=1
 plugin=org.kde.plasma.kickoff
 
-[Containments][2][Applets][3][Configuration]
-PreloadWeight=100
-
-[Containments][2][Applets][3][Configuration][General]
-favoritesPortedToKAstats=true
-
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
 
