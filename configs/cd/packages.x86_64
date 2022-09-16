@@ -203,7 +203,7 @@ kfind
 keditbookmarks
 systemsettings
 breeze
-#breeze-gtk
+breeze-gtk
 ##qtcurve-gtk
 sddm
 kate
@@ -213,8 +213,8 @@ plasma-pa
 
 # themes 
 midna-themes
-#plasma-workspace-wallpapers
-#kaos-wallpapers
+plasma-workspace-wallpapers
+kaos-wallpapers
 grub-theme-midna
 refind-theme-midna
 ##flattr-icons
@@ -234,7 +234,7 @@ kwallet-pam
 milou
 partitionmanager
 partitionmanager-debug
-#gwenview
+gwenview
 okular
 ark
 spectacle
@@ -267,7 +267,7 @@ modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-#plasma-firewall
+plasma-firewall
 
 # installer + dependencies
 netctl   
@@ -292,11 +292,11 @@ bluedevil
 ##vlc
 ##smplayer 
 ##smtube removed
-#haruna
+haruna
 ##clementine
 ##cantata
 ##elisa
-#kde-gtk-config
+kde-gtk-config
 ##oxygen-gtk2
 isowriter
 #tomoyo-tools
@@ -357,7 +357,7 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-#grub2-editor
+grub2-editor
 
 # burn
 #dvd+rw-tools
@@ -385,7 +385,7 @@ gdb
 # office
 ##calligra
 ##calligra-l10n
-#libreoffice
+libreoffice
 
 ## games
 #kpat
@@ -399,4 +399,4 @@ gdb
 ##telepathy-logger
 ##telepathy-salut
 ##kde-telepathy
-#neochat
+neochat
