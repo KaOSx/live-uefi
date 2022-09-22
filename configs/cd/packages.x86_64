@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20220901
+# Version: 20220919
 
 ### These should probably be present
 #base 
@@ -59,7 +59,7 @@ wget
 which
 # wpa_supplicant
 xfsprogs
-#zfs-kmod-next
+zfs-kmod
 binutils
 cdrkit
 sshfs
@@ -203,7 +203,7 @@ kfind
 keditbookmarks
 systemsettings
 breeze
-breeze-gtk
+#breeze-gtk
 ##qtcurve-gtk
 sddm
 kate
@@ -213,8 +213,8 @@ plasma-pa
 
 # themes 
 midna-themes
-plasma-workspace-wallpapers
-kaos-wallpapers
+#plasma-workspace-wallpapers
+#kaos-wallpapers
 grub-theme-midna
 refind-theme-midna
 ##flattr-icons
@@ -224,7 +224,7 @@ oxygen-sounds
 
 # kde (everything else)
 kinfocenter
-plasma-disks
+#plasma-disks
 kmenuedit
 khotkeys
 ##ksysguard
@@ -234,21 +234,21 @@ kwallet-pam
 milou
 partitionmanager
 partitionmanager-debug
-gwenview
-okular
+#gwenview
+#okular
 ark
 spectacle
 yakuake
 kgpg
-sweeper
+#sweeper
 ##appmenu-qt5
 #kdeconnect-kde
 #sddm-kcm
-wacomtablet
+#wacomtablet
 ###user-kcm replaced by plasma-desktop
 markdownpart
-dolphin-plugins
-power-profiles-daemon
+#dolphin-plugins
+#power-profiles-daemon
 
 # locales
 #kde-l10n-ca
@@ -267,7 +267,7 @@ modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-plasma-firewall
+#plasma-firewall
 
 # installer + dependencies
 netctl   
@@ -292,13 +292,13 @@ bluedevil
 ##vlc
 ##smplayer 
 ##smtube removed
-haruna
+#haruna
 ##clementine
 ##cantata
 ##elisa
-kde-gtk-config
+#kde-gtk-config
 ##oxygen-gtk2
-isowriter
+#isowriter
 #tomoyo-tools
 #kcp
 #base-devel
@@ -335,7 +335,7 @@ audiothumbs
 ##keneric
 #kget
 ##kruler
-kcharselect
+#kcharselect
 ##khangman
 kompare
 ##kolourpaint
@@ -357,7 +357,7 @@ virtualbox-guest-utils
 ##digikam
 ##spideroak
 ##calibre
-grub2-editor
+#grub2-editor
 
 # burn
 #dvd+rw-tools
@@ -385,7 +385,7 @@ gdb
 # office
 ##calligra
 ##calligra-l10n
-libreoffice
+#libreoffice
 
 ## games
 #kpat
@@ -399,4 +399,4 @@ libreoffice
 ##telepathy-logger
 ##telepathy-salut
 ##kde-telepathy
-neochat
+#neochat
