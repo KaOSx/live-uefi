@@ -1,16 +1,2 @@
 [Desktop Entry]
 DefaultProfile=Shell.profile
-
-[Favorite Profiles]
-Favorites=Shell.profile
-
-[MainWindow]
-ToolBarsMovable=Disabled
-Virtual Height 1440x900=480
-Virtual Width 1440x900=950
-Virtual XPosition 1440x900=420
-Virtual YPosition 1440x900=264
-
-[TabBar]
-NewTabButton=true
-TabBarVisibililty=AlwayShowTabBar
