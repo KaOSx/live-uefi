@@ -5,7 +5,6 @@ GenericName=Welcome
 Icon=welcome
 MimeType=
 Name=Welcome
-Path=
 StartupNotify=false
 Terminal=false
 TerminalOptions=
