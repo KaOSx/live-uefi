@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20230331
+# Version: 20230406
 
 ### These should probably be present
 #base 
@@ -198,6 +198,7 @@ kde-common
 plasma-workspace
 plasma-desktop
 dolphin
+kio-admin
 kdialog
 kfind
 keditbookmarks
