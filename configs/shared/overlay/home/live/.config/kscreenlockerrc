@@ -7,6 +7,7 @@ Timeout=0
 
 [Greeter]
 WallpaperPlugin=org.kde.image
+Theme=org.kde.breeze.desktop
 
 [Greeter][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/plasma/look-and-feel/org.kde.midna.desktop/contents/components/artwork/background.png

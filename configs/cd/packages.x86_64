@@ -180,8 +180,8 @@ lohit-fonts
 hicolor-icon-theme
 
 # sound (basic)
-phonon-qt5-backend-gstreamer
-#phonon-qt5-backend-vlc
+#phonon-qt5-backend-gstreamer
+phonon-qt6
 libcanberra
 libao
 alsa-lib
@@ -192,64 +192,63 @@ pulseaudio
 alsa-plugins
 ##pulseaudio-alsa
 
-# kf5 (minimal base)
-kf5
-kde-common
-plasma-workspace
-plasma-desktop
-dolphin
-kio-admin
-kdialog
-kfind
-keditbookmarks
-systemsettings
-breeze
+# kf6 (minimal base)
+kf6
+#kde-common
+plasma-workspace6
+plasma-desktop6
+#dolphin
+qtfm
+#kio-admin
+#kdialog
+#kfind
+#keditbookmarks
+systemsettings6
+breeze6
 #breeze-gtk
 ##qtcurve-gtk
 sddm
-kate
-konsole
-plasma-pa
-kjournald
-##kmix
+kate6
+konsole6
+plasma-pa6
+#kjournald
 
 # themes 
-midna-themes
+midna-themes6
 #plasma-workspace-wallpapers
 #kaos-wallpapers
 grub-theme-midna
 refind-theme-midna
 ##flattr-icons
-croeso
+#croeso
 powerline
 oxygen-sounds
 
 # kde (everything else)
-kinfocenter
-plasma-disks
-kmenuedit
-khotkeys
-##ksysguard
-plasma-systemmonitor
-kwalletmanager
-kwallet-pam
-milou
-partitionmanager
-partitionmanager-debug
-gwenview
-okular
-ark
-spectacle
-yakuake
-kgpg
+kinfocenter6
+#plasma-disks
+kmenuedit6
+#khotkeys
+#plasma-systemmonitor
+#kwalletmanager
+#kwallet-pam
+milou6
+#partitionmanager
+#partitionmanager-debug
+gwenview6
+#okular
+#ark
+spectacle6
+yakuake6
+#kgpg
 #sweeper
 ##appmenu-qt5
-kdeconnect-kde
-#sddm-kcm
-wacomtablet
+#kdeconnect-kde
+sddm-kcm6
+#wacomtablet
 ###user-kcm replaced by plasma-desktop
-markdownpart
-dolphin-plugins
+#markdownpart
+#dolphin-plugins
 power-profiles-daemon
 
 # locales
@@ -264,34 +263,35 @@ power-profiles-daemon
 #kde-l10n
 
 # networkmanagement
-plasma-nm
+plasma-nm6
 modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-plasma-firewall
+#plasma-firewall
 
 # installer + dependencies
-netctl   
-rsync
-hdparm
-hwinfo      
-iso-codes
-console-setup
-librsvg
-mkinitcpio-openswap  #  needed for luks on swap
-kpmcore-debug
-calamares
-calamares-debug
-welcome
-refind-efi
+#netctl   
+#rsync
+#hdparm
+#hwinfo      
+#iso-codes
+#console-setup
+#librsvg
+#mkinitcpio-openswap  #  needed for luks on swap
+mkinitcpio
+kpmcore6
+#calamares
+#calamares-debug
+welcome6
+#refind-efi
 
 ## extragear
 #quassel
 ##konqueror
-falkon
-bluedevil
-##vlc
+#falkon
+bluedevil6
+vlc
 ##smplayer 
 ##smtube removed
 #haruna
@@ -300,17 +300,17 @@ bluedevil
 ##elisa
 #kde-gtk-config
 ##oxygen-gtk2
-isowriter
+#isowriter
 #tomoyo-tools
 #kcp
 #base-devel
 ##clamav
 init-live
-kdeplasma-addons
-octopi
+kdeplasma-addons6
+octopi6
 #pacmanlogviewer
 inxi
-kscreen
+kscreen6
 ###kmymoney
 ###systemd-kcm
 #stacer
@@ -319,7 +319,7 @@ xdg-user-dirs
 ##okteta
 ##kdevelop
 ##konversation
-qt5-wayland
+qt6-wayland
 ##kstars
 ##kgeography
 ##kanagram
@@ -330,25 +330,24 @@ qt5-wayland
 ###webcamoid 
 #kamoso
 ##qbittorrent
-kdegraphics-thumbnailers
-kdesdk-thumbnailers
-ffmpegthumbs
-audiothumbs
+#kdegraphics-thumbnailers
+#kdesdk-thumbnailers
+#ffmpegthumbs
+#audiothumbs
 ##keneric
 #kget
 ##kruler
 #kcharselect
 ##khangman
-kompare
+#kompare
 ##kolourpaint
 ##kcalc
 ##kbruch
 #simplescreenrecorder
-ksshaskpass
+ksshaskpass6
 ##trojita
 ##choqok
 ##krita
-###pepper-flash
 micro
 ##kdepim-addons
 virtualbox-guest-utils
