@@ -4,7 +4,7 @@ _mnt_aufs() {
     local mnt="${2}"
     msg "::: Adding new aufs branch: ${src} to ${mnt}"
     mkdir -p "${mnt}"
-    /bin/mount -t aufs -o remount,append:"${src}"=ro none "${mnt}"
+    /bin/mount -t aufs -o remount,append="${src}"=ro none "${mnt}"
 }
 
 # args: source, mountpoint
