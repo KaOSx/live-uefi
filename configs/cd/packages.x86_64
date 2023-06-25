@@ -207,10 +207,11 @@ breeze
 #breeze-gtk
 ##qtcurve-gtk
 sddm
+weston
 kate
 konsole
 plasma-pa
-kjournald
+#kjournald
 ##kmix
 
 # themes 
@@ -226,18 +227,18 @@ oxygen-sounds
 
 # kde (everything else)
 kinfocenter
-plasma-disks
+#plasma-disks
 kmenuedit
 khotkeys
 ##ksysguard
-plasma-systemmonitor
+#plasma-systemmonitor
 kwalletmanager
 kwallet-pam
 milou
 partitionmanager
 partitionmanager-debug
 #gwenview
-okular
+#okular
 ark
 spectacle
 yakuake
@@ -298,7 +299,7 @@ bluedevil
 ##clementine
 ##cantata
 ##elisa
-kde-gtk-config
+#kde-gtk-config
 ##oxygen-gtk2
 isowriter
 #tomoyo-tools
