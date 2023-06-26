@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20230626
+# Version: 202306.26
 
 ### These should probably be present
 #base 
@@ -180,8 +180,8 @@ lohit-fonts
 hicolor-icon-theme
 
 # sound (basic)
-phonon-qt5-backend-gstreamer
-#phonon-qt5-backend-vlc
+#phonon-qt5-backend-gstreamer
+phonon-qt6
 libcanberra
 libao
 alsa-lib
@@ -192,64 +192,64 @@ pulseaudio
 alsa-plugins
 ##pulseaudio-alsa
 
-# kf5 (minimal base)
-kf5
-kde-common
-plasma-workspace
-plasma-desktop
-dolphin
-kio-admin
-kdialog
-kfind
-keditbookmarks
-systemsettings
-breeze
+# kf6 (minimal base)
+kf6
+#kde-common
+plasma-workspace6
+plasma-desktop6
+dolphin6
+kde-cli-tools6
+#qtfm
+#kio-admin
+#kdialog
+#kfind
+#keditbookmarks
+systemsettings6
+breeze6
 #breeze-gtk
 ##qtcurve-gtk
 sddm
-kate
-konsole
-plasma-pa
+kate6
+konsole6
+plasma-pa6
 #kjournald
-##kmix
 
 # themes 
-midna-themes
+midna-themes6
 #plasma-workspace-wallpapers
 #kaos-wallpapers
 grub-theme-midna
 refind-theme-midna
 ##flattr-icons
-croeso
+croeso6
 powerline
 oxygen-sounds
 
 # kde (everything else)
-kinfocenter
+kinfocenter6
 #plasma-disks
-kmenuedit
-khotkeys
-##ksysguard
+kmenuedit6
+#khotkeys
 #plasma-systemmonitor
-kwalletmanager
-kwallet-pam
-milou
-partitionmanager
-partitionmanager-debug
-#gwenview
+#kwalletmanager
+#kwallet-pam
+milou6
+#partitionmanager
+#partitionmanager-debug
+gwenview6
 #okular
-ark
-spectacle
-yakuake
-kgpg
+#ark
+spectacle6
+yakuake6
+#kgpg
 #sweeper
 ##appmenu-qt5
 #kdeconnect-kde
-#sddm-kcm
-wacomtablet
+sddm-kcm6
+#wacomtablet
 ###user-kcm replaced by plasma-desktop
-markdownpart
-dolphin-plugins
+#markdownpart
+dolphin-plugins6
 power-profiles-daemon
 
 # locales
@@ -264,62 +264,64 @@ power-profiles-daemon
 #kde-l10n
 
 # networkmanagement
-plasma-nm
+plasma-nm6
 modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-plasma-firewall
+#plasma-firewall
 
 # installer + dependencies
-netctl   
-rsync
-hdparm
-hwinfo      
-iso-codes
-console-setup
-librsvg
-mkinitcpio-openswap  #  needed for luks on swap
-kpmcore-debug
-calamares
-calamares-debug
-welcome
-refind-efi
+#netctl   
+#rsync
+#hdparm
+#hwinfo      
+#iso-codes
+#console-setup
+#librsvg
+#mkinitcpio-openswap  #  needed for luks on swap
+mkinitcpio
+kpmcore6
+#calamares
+#calamares-debug
+welcome6
+#refind-efi
 
 ## extragear
 #quassel
 ##konqueror
-falkon
-bluedevil
-##vlc
+falkon6
+#simplebrowser
+bluedevil6
+vlc
 ##smplayer 
 ##smtube removed
 #haruna
 ##clementine
 ##cantata
-##elisa
+elisa6
 #kde-gtk-config
 ##oxygen-gtk2
-isowriter
+#isowriter
 #tomoyo-tools
 #kcp
 #base-devel
 ##clamav
 init-live
-kdeplasma-addons
-octopi
-#pacmanlogviewer
+kdeplasma-addons6
+octopi6
+pacmanlogviewer
 inxi
-kscreen
+kscreen6
 ###kmymoney
 ###systemd-kcm
-#stacer
+stacer
 xdg-user-dirs
 ##skanlite
 ##okteta
 ##kdevelop
 ##konversation
-qt5-wayland
+qt6-wayland
 ##kstars
 ##kgeography
 ##kanagram
@@ -330,10 +332,10 @@ qt5-wayland
 ###webcamoid 
 #kamoso
 ##qbittorrent
-kdegraphics-thumbnailers
-kdesdk-thumbnailers
-ffmpegthumbs
-audiothumbs
+#kdegraphics-thumbnailers
+#kdesdk-thumbnailers
+#ffmpegthumbs
+#audiothumbs
 ##keneric
 #kget
 ##kruler
@@ -344,11 +346,10 @@ audiothumbs
 ##kcalc
 ##kbruch
 #simplescreenrecorder
-ksshaskpass
+ksshaskpass6
 ##trojita
 ##choqok
 ##krita
-###pepper-flash
 micro
 ##kdepim-addons
 virtualbox-guest-utils

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Categories=Qt;System;
-Exec=welcome
-GenericName=Welcome
-Icon=welcome
+Exec=croeso
+GenericName=Croeso
+Icon=croeso
 MimeType=
-Name=Welcome
+Name=Croeso
 StartupNotify=false
 Terminal=false
 TerminalOptions=
