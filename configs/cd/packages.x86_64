@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 20230617
+# Version: 20230626
 
 ### These should probably be present
 #base 
@@ -207,7 +207,6 @@ breeze
 #breeze-gtk
 ##qtcurve-gtk
 sddm
-weston
 kate
 konsole
 plasma-pa
