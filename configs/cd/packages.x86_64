@@ -272,20 +272,26 @@ ntp
 #plasma-firewall
 
 # installer + dependencies
-#netctl   
-#rsync
-#hdparm
-#hwinfo      
-#iso-codes
-#console-setup
-#librsvg
-#mkinitcpio-openswap  #  needed for luks on swap
+netctl   
+rsync
+hdparm
+hwinfo      
+iso-codes
+console-setup
+librsvg
+mkinitcpio-openswap  #  needed for luks on swap
 mkinitcpio
-kpmcore6
+kpmcore
 #calamares
 #calamares-debug
 welcome6
-#refind-efi
+refind-efi
+qt5-location
+qt5-virtualkeyboard
+yaml-cpp
+libpwquality
+kirigami
+kcrash
 
 ## extragear
 #quassel
