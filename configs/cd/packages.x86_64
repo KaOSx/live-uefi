@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 202307.09
+# Version: 202308.06
 
 ### These should probably be present
 #base 
@@ -200,19 +200,19 @@ plasma-desktop6
 dolphin6
 kde-cli-tools6
 #qtfm
-#kio-admin
-#kdialog
+kio-admin6
+kdialog6
 #kfind
 #keditbookmarks
 systemsettings6
 breeze6
-#breeze-gtk
+breeze-gtk6
 ##qtcurve-gtk
 sddm
 kate6
 konsole6
 plasma-pa6
-#kjournald
+kjournald6
 
 # themes 
 midna-themes6
@@ -238,7 +238,7 @@ milou6
 #partitionmanager-debug
 gwenview6
 #okular
-#ark
+ark6
 spectacle6
 yakuake6
 #kgpg
@@ -282,16 +282,16 @@ librsvg
 mkinitcpio-openswap  #  needed for luks on swap
 mkinitcpio
 kpmcore
-#calamares
-#calamares-debug
+calamares
+calamares-debug
 welcome6
 refind-efi
-qt5-location
-qt5-virtualkeyboard
-yaml-cpp
-libpwquality
-kirigami
-kcrash
+#qt5-location
+#qt5-virtualkeyboard
+#yaml-cpp
+#libpwquality
+#kirigami
+#kcrash
 
 ## extragear
 #quassel
@@ -350,6 +350,7 @@ qt6-wayland
 ##khangman
 #kompare
 kolourpaint6
+skanpage6
 ##kcalc
 ##kbruch
 #simplescreenrecorder
