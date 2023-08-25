@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 202308.06
+# Version: 202308.25
 
 ### These should probably be present
 #base 
@@ -411,4 +411,4 @@ kmines6
 ##telepathy-logger
 ##telepathy-salut
 ##kde-telepathy
-#neochat
+neochat6
