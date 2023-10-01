@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 202309.22
+# Version: 202310.01
 
 ### These should probably be present
 #base 
@@ -281,17 +281,17 @@ console-setup
 librsvg
 mkinitcpio-openswap  #  needed for luks on swap
 mkinitcpio
-kpmcore
-calamares
-calamares-debug
+kpmcore6
+calamares6
+calamares6-debug
 welcome6
 refind-efi
-qt5-location
-qt5-virtualkeyboard
+qt6-location
+qt6-virtualkeyboard
 yaml-cpp
 libpwquality
-kirigami
-kcrash
+kirigami6
+kcrash6
 
 ## extragear
 #quassel
