@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 202310.01
+# Version: 202311.01
 
 ### These should probably be present
 #base 
@@ -297,7 +297,7 @@ kcrash6
 #quassel
 ##konqueror
 falkon6
-simplebrowser
+#simplebrowser
 bluedevil6
 vlc
 ##smplayer 
@@ -348,7 +348,7 @@ kdegraphics-thumbnailers6
 ##kruler
 #kcharselect
 ##khangman
-#kompare
+kompare6
 kolourpaint6
 skanpage6
 ##kcalc
