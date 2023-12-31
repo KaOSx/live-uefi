@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 202312.15
+# Version: 202312.30
 
 ### These should probably be present
 #base 
@@ -198,7 +198,7 @@ kf6
 plasma-workspace6
 plasma-desktop6
 dolphin
-kde-cli-tools6
+kde-cli-tools
 #qtfm
 kio-admin
 kdialog
@@ -269,7 +269,7 @@ modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-#plasma-firewall
+plasma-firewall6
 
 # installer + dependencies
 netctl   
@@ -302,7 +302,7 @@ bluedevil6
 vlc
 ##smplayer 
 ##smtube removed
-haruna6
+#haruna6
 ##clementine
 ##cantata
 elisa
@@ -344,7 +344,7 @@ kdegraphics-thumbnailers
 #ffmpegthumbs
 #audiothumbs
 ##keneric
-#kget
+kget
 ##kruler
 #kcharselect
 ##khangman
