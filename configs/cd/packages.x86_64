@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 202312.30
+# Version: 202401.13
 
 ### These should probably be present
 #base 
@@ -195,60 +195,60 @@ alsa-plugins
 # kf6 (minimal base)
 kf6
 #kde-common
-plasma-workspace6
-plasma-desktop6
+plasma-workspace
+plasma-desktop
 dolphin
 kde-cli-tools
 #qtfm
 kio-admin
 kdialog
-#kfind
-#keditbookmarks
-systemsettings6
-breeze6
-breeze-gtk6
+kfind
+keditbookmarks
+systemsettings
+breeze
+#breeze-gtk
 ##qtcurve-gtk
 sddm
 kate
 konsole
-plasma-pa6
-kjournald
+plasma-pa
+#kjournald
 
 # themes 
-midna-themes6
-plasma-workspace-wallpapers
-kaos-wallpapers
+midna-themes
+#plasma-workspace-wallpapers
+#kaos-wallpapers
 grub-theme-midna
 refind-theme-midna
 ##flattr-icons
-croeso6
+croeso
 powerline
 ocean-sound-theme
 
 # kde (everything else)
-kinfocenter6
-plasma-disks6
-kmenuedit6
+kinfocenter
+plasma-disks
+kmenuedit
 #khotkeys
-plasma-systemmonitor6
+plasma-systemmonitor
 #kwalletmanager
-kwallet-pam6
-milou6
+kwallet-pam
+milou
 partitionmanager
 partitionmanager-debug
-gwenview6
+gwenview
 okular
 ark
-spectacle6
+spectacle
 yakuake
-#kgpg
-#sweeper
+kgpg
+sweeper
 ##appmenu-qt5
 kdeconnect-kde
-sddm-kcm6
-#wacomtablet
+sddm-kcm
+wacomtablet
 ###user-kcm replaced by plasma-desktop
-#markdownpart
+markdownpart
 dolphin-plugins
 power-profiles-daemon
 
@@ -264,12 +264,12 @@ power-profiles-daemon
 #kde-l10n
 
 # networkmanagement
-plasma-nm6
+plasma-nm
 modemmanager
 mobile-broadband-provider-info
 ntp
 ###networkmanager-dispatcher-ntpd
-plasma-firewall6
+plasma-firewall
 
 # installer + dependencies
 netctl   
@@ -282,9 +282,9 @@ librsvg
 mkinitcpio-openswap  #  needed for luks on swap
 mkinitcpio
 kpmcore
-calamares6
-calamares6-debug
-welcome6
+calamares
+calamares-debug
+welcome
 refind-efi
 qt6-location
 qt6-virtualkeyboard
@@ -297,12 +297,11 @@ kcrash6
 #quassel
 ##konqueror
 falkon
-#simplebrowser
-bluedevil6
+bluedevil
 vlc
 ##smplayer 
 ##smtube removed
-#haruna6
+#haruna
 ##clementine
 ##cantata
 elisa
@@ -311,15 +310,15 @@ elisa
 #isowriter
 isoimagewriter
 #tomoyo-tools
-kcp
-base-devel
+#kcp
+#base-devel
 ##clamav
 init-live
-kdeplasma-addons6
+kdeplasma-addons
 octopi
 pacmanlogviewer
 inxi
-kscreen6
+kscreen
 ###kmymoney
 ###systemd-kcm
 stacer
@@ -334,27 +333,27 @@ qt6-wayland
 ##kanagram
 ##kig
 ##kup
-seafile-client
+#seafile-client
 ###dropbox
 ###webcamoid 
 #kamoso
 ##qbittorrent
 kdegraphics-thumbnailers
-#kdesdk-thumbnailers
-#ffmpegthumbs
+kdesdk-thumbnailers
+ffmpegthumbs
 #audiothumbs
 ##keneric
-kget
+#kget
 ##kruler
-#kcharselect
+kcharselect
 ##khangman
 kompare
-kolourpaint
-skanpage6
+#kolourpaint
+#skanpage
 ##kcalc
 ##kbruch
 #simplescreenrecorder
-ksshaskpass6
+ksshaskpass
 ##trojita
 ##choqok
 ##krita
@@ -399,8 +398,8 @@ gdb
 #libreoffice
 
 ## games
-kpat
-kmines
+#kpat
+#kmines
 ##bovo
 ##kbounce
 
@@ -411,4 +410,4 @@ kmines
 ##telepathy-logger
 ##telepathy-salut
 ##kde-telepathy
-neochat
+#neochat
