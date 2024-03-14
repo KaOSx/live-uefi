@@ -1,5 +1,5 @@
 # KaOS-Live Packages file
-# Version: 2024.03.07
+# Version: 2024.03.11
 
 ### These should probably be present
 #base 
@@ -328,6 +328,7 @@ xdg-user-dirs
 ##kdevelop
 konversation
 qt6-wayland
+qt6-imageformats
 ##kstars
 ##kgeography
 ##kanagram
